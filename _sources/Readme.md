@@ -68,7 +68,7 @@ OBJEKTE ERSTELLEN
 
 [**Pixelgrafik in Vektor konvertieren**](Advanced/Inkscape_(Advanced).html#Pixel2Vektor)
 
-**$\LaTeX$ Formeln**(Advanced/Inkscape_(Advanced).html#LaTeX)
+[**$\LaTeX$ Formeln**](Advanced/Inkscape_(Advanced).html#LaTeX)
 
 ---
 
