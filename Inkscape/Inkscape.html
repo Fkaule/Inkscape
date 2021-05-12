@@ -1,0 +1,1905 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. Inkscape &#8212; Inkscape</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="9. Inkscape (Advanced)" href="../Inkscape2/Inkscape_%28Advanced%29.html" />
+    <link rel="prev" title="Startseite" href="../Readme.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Inkscape</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Readme.html">
+   Startseite
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   1. Inkscape
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="#infomaterial-links">
+   2. Infomaterial / Links
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="#funktions-themenubersicht">
+   3. Funktions- / Themenübersicht
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="#vorzeigebeispiel-solarzelle">
+   4. Vorzeigebeispiel: Solarzelle
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="#ubungsbeispiele">
+   5. Übungsbeispiele
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="#informationen-zur-theorie">
+   6. Informationen zur Theorie
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="#tutorials">
+   7. Tutorials
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="#ressourcen">
+   8. Ressourcen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html">
+   9. Inkscape (Advanced)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#unterschied-objekt-pfad">
+   10. Unterschied
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     Objekt
+    </span>
+   </code>
+   /
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     Pfad
+    </span>
+   </code>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#selektionsmoglichkeiten">
+   11. Selektionsmöglichkeiten
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#pfadeffekte-bemaszung">
+   12. Pfadeffekte (Bemaßung)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#maszeinheiten-auf-dem-monitor-einstellen">
+   13. Maßeinheiten auf dem Monitor einstellen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#bezier-pen">
+   14. Bezier-Pen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#textanpassungen">
+   15. Textanpassungen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#pixelgrafiken-automatisch-in-vektor-umwandeln">
+   16. Pixelgrafiken automatisch in Vektor umwandeln
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#ausschneidemaske-pixelbilder-croppen">
+   17. Ausschneidemaske (Pixelbilder croppen)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#musterfullung">
+   18. Musterfüllung
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#gradient">
+   19. Gradient
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#text-mit-hintergrund">
+   20. Text mit Hintergrund
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#gitter-3d">
+   21. Gitter 3D
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#objekt-in-isometrische-ansicht-verformen">
+   22. Objekt in isometrische Ansicht verformen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#kantenverrundung">
+   23. Kantenverrundung
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#templates">
+   24. Templates
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#latex-in-inkscape">
+   25.
+   <span class="math notranslate nohighlight">
+    \(\LaTeX\)
+   </span>
+   in Inkscape
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#hilfslinien">
+   26. Hilfslinien
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#rontgen-sicht">
+   27. Röntgen Sicht
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#ubertragen-von-stil-farbe-linie-dicke-auf-andere">
+   28. Übertragen von Stil (Farbe/Linie/Dicke) auf andere
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#clone-erstellen">
+   29. Clone erstellen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#batch-export">
+   30. Batch Export
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#weiterfuhrende-beispiele">
+   31. Weiterführende Beispiele
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Links.html">
+   32. Links
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Inkscape/Inkscape.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/Fkaule/Python_for_Engineers/tree/main"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/Fkaule/Python_for_Engineers/tree/main/issues/new?title=Issue%20on%20page%20%2FInkscape/Inkscape.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   1. Inkscape
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#infomaterial-links">
+   2. Infomaterial / Links
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#funktions-themenubersicht">
+   3. Funktions- / Themenübersicht
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vorzeigebeispiel-solarzelle">
+   4. Vorzeigebeispiel: Solarzelle
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#vorlauf">
+     4.1. Vorlauf
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#recherchematerial">
+       4.1.1. Recherchematerial
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#programminstallation">
+       4.1.2. Programminstallation
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#programmaufbau">
+       4.1.3.
+       <strong>
+        Programmaufbau
+       </strong>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#icons-zu-klein">
+       4.1.4. Icons zu klein?
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#datei-speichern">
+       4.1.5. Datei speichern
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#seite-einrichten">
+       4.1.6.
+       <strong>
+        Seite Einrichten
+       </strong>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#gitter-einstellen">
+       4.1.7. Gitter einstellen
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#anderung-der-ansicht">
+       4.1.8. Änderung der Ansicht
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#erstellung-der-solarzelle">
+     4.2. Erstellung der Solarzelle
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ebenen">
+       4.2.1. Ebenen
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#objekterstellung-rechteck-tool">
+       4.2.2. Objekterstellung
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         Rechteck-Tool
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#snapping">
+       4.2.3. Snapping
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#fullung-und-kontur">
+       4.2.4. Füllung und Kontur
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#pipetten-tool">
+       4.2.5. Pipetten Tool
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#bezierkurven-tool">
+       4.2.6. Bezierkurven Tool
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#fullung-und-kontur-linientyp">
+       4.2.7. Füllung und Kontur (Linientyp)
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#kreis-ellipse-bogen-tool">
+       4.2.8. Kreis/Ellipse/Bogen Tool
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#gruppieren">
+       4.2.9. Gruppieren
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#objekte-bewegen">
+       4.2.10. Objekte bewegen
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#objekt-bewegung-mit-den-pfeiltasten">
+       4.2.11. Objekt Bewegung mit den Pfeiltasten ⬅️/➡️/⬆️/⬇️
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#objekt-bewegung-mit-dem-objekte-ausrichten-tool">
+       4.2.12. Objekt Bewegung mit dem
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         Objekte
+        </span>
+        <span class="pre">
+         Ausrichten
+        </span>
+       </code>
+       Tool
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#objektgrosze-andern">
+       4.2.13. Objektgröße ändern
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#objektgrosze-im-objekt-andern">
+       4.2.14. Objektgröße im Objekt ändern
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#grosze-eines-kontur-andern-mit-ohne-skalierung">
+       4.2.15. Größe eines Kontur ändern (mit/ohne) Skalierung
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#objektgrosze-in-der-tool-control-bar">
+       4.2.16. Objektgröße in der
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         Tool-Control-Bar
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#objektgrosze-mit-dem-transformations-tool">
+       4.2.17. Objektgröße mit dem
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         Transformations
+        </span>
+       </code>
+       Tool
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#linien-mit-pfeilen">
+       4.2.18. Linien mit Pfeilen
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#erstellung-der-sonne">
+     4.3. Erstellung der Sonne
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#objekthierarchie">
+       4.3.1. Objekthierarchie
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#linie-bearbeiten-mit-edit-path-by-nodes-tool">
+       4.3.2. Linie bearbeiten mit
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         Edit
+        </span>
+        <span class="pre">
+         Path
+        </span>
+        <span class="pre">
+         by
+        </span>
+        <span class="pre">
+         Nodes
+        </span>
+       </code>
+       Tool
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#beschriftung">
+     4.4. Beschriftung
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#vorbereitungen-zum-export">
+     4.5. Vorbereitungen zum Export
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#grosze-aller-objekte-zusammen-andern">
+       4.5.1. Größe aller Objekte zusammen ändern
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#seitengrosze-an-zeichnung-anpassen">
+       4.5.2. Seitengröße an Zeichnung anpassen
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hintergrundfarbe-fur-export-einstellen">
+       4.5.3. Hintergrundfarbe (für Export) einstellen
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#pixelgrafik-export-als-png">
+       4.5.4. [
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         PixelGrafik
+        </span>
+       </code>
+       ] Export als
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         png
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#vektorgrafik-speichern-als-svg">
+       4.5.5. [
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         VektorGrafik
+        </span>
+       </code>
+       ] Speichern als
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         svg
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#vektorgrafik-speichern-als-pdf">
+       4.5.6. [
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         VektorGrafik
+        </span>
+       </code>
+       ] Speichern als
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         pdf
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ubungsbeispiele">
+   5. Übungsbeispiele
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#alltag">
+     5.1. Alltag
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#technisch">
+     5.2. technisch
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#informationen-zur-theorie">
+   6. Informationen zur Theorie
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#color">
+     6.1. Color
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#typography">
+     6.2. Typography
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#layout-and-composition">
+     6.3. Layout and Composition
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tutorials">
+   7. Tutorials
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ressourcen">
+   8. Ressourcen
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#inspiration">
+     8.1. Inspiration
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#stockfotos">
+     8.2. Stockfotos
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#schriftarten">
+     8.3. Schriftarten
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#color-themes">
+     8.4. Color Themes
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#icons">
+     8.5. Icons
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#imagecompressor">
+     8.6. Imagecompressor
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="inkscape">
+<h1><span class="section-number">1. </span>Inkscape<a class="headerlink" href="#inkscape" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="infomaterial-links">
+<h1><span class="section-number">2. </span>Infomaterial / Links<a class="headerlink" href="#infomaterial-links" title="Permalink to this headline">¶</a></h1>
+<p><strong><a class="reference external" href="https://inkscape-manuals.readthedocs.io/en/latest/why-use-inkscape.html">📖 Inkscape Dokumentation</a></strong></p>
+<p><strong><a class="reference external" href="https://inkscape.org/de/release/inkscape-1.0.1/">⬇️ Inkscape (Ver. 1.0.1) Download</a></strong></p>
+</div>
+<div class="section" id="funktions-themenubersicht">
+<h1><span class="section-number">3. </span>Funktions- / Themenübersicht<a class="headerlink" href="#funktions-themenubersicht" title="Permalink to this headline">¶</a></h1>
+<p>*️⃣ = <strong>Advanced</strong> ( <a class="reference external" href="https://www.notion.so/Inkscape-Advanced-1fe01d20969442bb8fc381e2a72845ce">zweite Veranstaltung</a> )</p>
+<p><strong>ALLGEMEIN</strong></p>
+<p><strong><span class="xref myst">Seite Einrichten</span></strong></p>
+<ul class="simple">
+<li><p><span class="xref myst">Größe</span></p></li>
+<li><p><span class="xref myst">Gitter</span></p></li>
+</ul>
+<p><strong><span class="xref myst">Änderung der Ansicht</span></strong></p>
+<ul class="simple">
+<li><p>Zoom</p></li>
+<li><p>Bewegung</p></li>
+</ul>
+<p><strong><span class="xref myst">Ebenen</span></strong></p>
+<ul class="simple">
+<li><p>Erstellen</p></li>
+<li><p>Sichtbarkeit</p></li>
+<li><p>Sperren</p></li>
+</ul>
+<p><strong>Speichern</strong></p>
+<ul class="simple">
+<li><p><span class="xref myst">Vorbereitungen</span></p></li>
+<li><p><span class="xref myst">png</span></p></li>
+<li><p><span class="xref myst">svg</span></p></li>
+</ul>
+<p><strong>OBJEKTE ERSTELLEN</strong></p>
+<p><strong>Inkscape Tools zur Objekterstellung</strong></p>
+<ul class="simple">
+<li><p><span class="xref myst">Rechteck</span></p></li>
+<li><p><span class="xref myst">Kreis</span></p></li>
+<li><p><span class="xref myst">Bezier-Pen</span></p></li>
+<li><p><span class="xref myst">Text</span></p></li>
+</ul>
+<p><strong><a class="reference external" href="https://www.notion.so/Inkscape-Advanced-1fe01d20969442bb8fc381e2a72845ce">Klone erstellen</a></strong> *️⃣</p>
+<p><strong>Pfadeffekte</strong> *️⃣</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.notion.so/Inkscape-Advanced-1fe01d20969442bb8fc381e2a72845ce">Bemessung</a></p></li>
+</ul>
+<p><strong><a class="reference external" href="https://www.notion.so/Inkscape-Advanced-1fe01d20969442bb8fc381e2a72845ce">Texthintergrund</a></strong> *️⃣</p>
+<p><strong><a class="reference external" href="https://www.notion.so/Inkscape-Advanced-1fe01d20969442bb8fc381e2a72845ce">Path vs Object</a></strong> *️⃣</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.notion.so/Inkscape-Advanced-1fe01d20969442bb8fc381e2a72845ce">Node Aligment</a></p></li>
+<li><p><a class="reference external" href="https://www.notion.so/Inkscape-Advanced-1fe01d20969442bb8fc381e2a72845ce">Boolean Operations</a></p></li>
+</ul>
+<p><strong><a class="reference external" href="https://www.notion.so/Inkscape-Advanced-1fe01d20969442bb8fc381e2a72845ce">Vektorgrafik aus Pixelgrafik erstellen</a></strong> *️⃣</p>
+<p><span class="math notranslate nohighlight">\(**[\LaTeX\)</span> Formeln](https://www.notion.so/Inkscape-Advanced-1fe01d20969442bb8fc381e2a72845ce)** *️⃣</p>
+<p><strong>OBJEKTE VERÄNDERN</strong></p>
+<p><strong><span class="xref myst">Objekteigenschaften</span></strong></p>
+<ul class="simple">
+<li><p>**Füllung (**Farbe / Alpha)</p></li>
+<li><p><strong>Kontur</strong> ( Farbe / Alpha / Linientyp / Liniendicke)</p></li>
+</ul>
+<p><strong>Zusätzliche</strong> <strong>Inkscape Tools</strong></p>
+<ul class="simple">
+<li><p><span class="xref myst">Edit Path by Nodes</span></p></li>
+<li><p><span class="xref myst">Pipette (Color Picker)</span></p></li>
+</ul>
+<p><strong>Objekte ausrichten</strong></p>
+<ul class="simple">
+<li><p><span class="xref myst">Objekthierarchie</span></p></li>
+<li><p><span class="xref myst">Alignment Tool (Zueinander / Aufteilung)</span></p></li>
+</ul>
+<p><strong>Objekte verschieben / skalieren / drehen</strong></p>
+<ul class="simple">
+<li><p><span class="xref myst">Bewegung</span></p></li>
+<li><p><span class="xref myst">Einrasten</span></p></li>
+<li><p><span class="xref myst">Objektgröße ändern</span></p></li>
+</ul>
+<p><span class="xref myst">Gruppieren</span></p>
+</div>
+<div class="section" id="vorzeigebeispiel-solarzelle">
+<h1><span class="section-number">4. </span>Vorzeigebeispiel: Solarzelle<a class="headerlink" href="#vorzeigebeispiel-solarzelle" title="Permalink to this headline">¶</a></h1>
+<p>Wir wollen nun den <strong>Aufbau</strong> und die <strong>Funktionen</strong> von <strong>Inskcape</strong> direkt an Beispielen kennenlernen. Beginnend dazu verwenden wir eine Darstellung zum <strong>schematischen Aufbau einer Solarzelle</strong>.</p>
+<div class="section" id="vorlauf">
+<h2><span class="section-number">4.1. </span>Vorlauf<a class="headerlink" href="#vorlauf" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="recherchematerial">
+<h3><span class="section-number">4.1.1. </span>Recherchematerial<a class="headerlink" href="#recherchematerial" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default" id="untitled">
+<a class="reference internal image-reference" href="../_images/Untitled.png"><img alt="../_images/Untitled.png" src="../_images/Untitled.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.1 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled" title="Permalink to this image">¶</a></p>
+</div>
+<p>In der Kunst gibt es ein schönes <strong>Zitat</strong> von <strong>Gary Panter</strong>:</p>
+<blockquote>
+<div><p>“<em>If you have one person you’re influenced by, everyone will say you’re the next whoever. But if you rip off a hundred people, everyone will say you’re so original</em>!”  <strong>Gary Panter</strong></p>
+</div></blockquote>
+<p>Um etwas mehr in der Wissenschaft zu bleiben noch ein <strong>Zitat</strong> von <strong>Isaac Newton</strong>:</p>
+<blockquote>
+<div><p>“<em>If I have seen further it is by standing on the shoulders of giants.</em>” <strong>Isaac Newton</strong></p>
+</div></blockquote>
+<p><strong>Im Kern geht es darum: Alles was man erstellt ist ein Produkt von Dingen die man zuvor gesehen hat.</strong></p>
+<p>Besonders wenn man etwas neues lernen will (wie wir jetzt mit Inkscape) hilft es sehr, sich an  Abbildungen zu orientieren, die einen optisch ansprechen und versucht diese selbst zu erstellen bzw. zu reproduzieren. Nun also zurück zu unserem Solarzellen Beispiel.</p>
+<p>Wir fangen an und suchen uns Referenzbilder für den Aufbau der Solarzelle. Im besten Fall kann man auch Fachliteratur zurückgreifen, wir verwenden zur Vereinfachung die Bildersuche mit der Suchmaschine Ihrer Wahl z.B. hier die <strong><a class="reference external" href="https://www.ecosia.org/images?q=schematischer%20aufbau%20solarzelle">Bildersuche mit Ecosia (Link)</a></strong></p>
+<p><a class="reference external" href="https://www.ecosia.org/images?q=schematischer%20aufbau%20solarzelle"></a></p>
+<div class="figure align-default" id="untitled-1">
+<a class="reference internal image-reference" href="../_images/Untitled_1.png"><img alt="../_images/Untitled_1.png" src="../_images/Untitled_1.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.2 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-1" title="Permalink to this image">¶</a></p>
+</div>
+<p>Wir nehmen uns nun eine Abbildung die uns inhaltlich und optisch am ehesten zusagt als Vorlage für unser erstes Beispiel.</p>
+<div class="figure align-default" id="untitled-2">
+<a class="reference internal image-reference" href="../_images/Untitled_2.png"><img alt="../_images/Untitled_2.png" src="../_images/Untitled_2.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.3 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-2" title="Permalink to this image">¶</a></p>
+</div>
+<p>Quelle: <a class="reference external" href="https://www.solaranlage.de/technik/solarzellen">https://www.solaranlage.de/technik/solarzellen</a></p>
+<p>Um frei verwendbare Referenzen zu bekommen, empfiehlt sich die Verwendung von <strong><span class="xref myst">pixabay</span></strong> oder <strong><a class="reference external" href="https://unsplash.com/">unsplash</a></strong></p>
+<p>Zur Vereinfachung würde ich die Abbildung auf eine 2D Darstellung zurückführen. Hier nun das Ergebnis was wir erstellen wollen:</p>
+<div class="figure align-default" id="solarzelle">
+<a class="reference internal image-reference" href="../_images/00-Solarzelle.png"><img alt="../_images/00-Solarzelle.png" src="../_images/00-Solarzelle.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.4 </span><span class="caption-text">caption</span><a class="headerlink" href="#solarzelle" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="programminstallation">
+<h3><span class="section-number">4.1.2. </span>Programminstallation<a class="headerlink" href="#programminstallation" title="Permalink to this headline">¶</a></h3>
+<p>Falls noch nicht geschehen, <a class="reference external" href="https://inkscape.org/de/release/inkscape-1.0.1/"><strong>Laden Sie sich Inkscape runter</strong></a> und <strong>installieren</strong> Sie es.</p>
+</div>
+<div class="section" id="programmaufbau">
+<h3><span class="section-number">4.1.3. </span><strong>Programmaufbau</strong><a class="headerlink" href="#programmaufbau" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default" id="untitled-3">
+<a class="reference internal image-reference" href="../_images/Untitled_3.png"><img alt="../_images/Untitled_3.png" src="../_images/Untitled_3.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.5 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-3" title="Permalink to this image">¶</a></p>
+</div>
+<p><a class="reference external" href="https://inkscape-manuals.readthedocs.io/en/latest/interface.html">Bild aus Inkscape Dokumentation</a></p>
+<p>In meiner Version ist die <code class="docutils literal notranslate"><span class="pre">Commands-Bar</span></code> über der <code class="docutils literal notranslate"><span class="pre">Tool-controls</span> <span class="pre">bar</span></code></p>
+<p>Wir öffnen Inkscape sehen viele verschiedene Menüleisten und Bereiche. Wir werden die meisten mehr oder weniger kennenlernen und fokussieren uns zunächst auf die <strong>Seiteneinstellung,</strong> die den Bereich der <strong><code class="docutils literal notranslate"><span class="pre">Page</span> <span class="pre">Area</span></code></strong> definiert.</p>
+</div>
+<div class="section" id="icons-zu-klein">
+<h3><span class="section-number">4.1.4. </span>Icons zu klein?<a class="headerlink" href="#icons-zu-klein" title="Permalink to this headline">¶</a></h3>
+<p>Sind die Icons zu klein, so kann dies unter <strong>Einstellungen</strong> (<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">P</span></code> oder <code class="docutils literal notranslate"><span class="pre">Menu-Bar</span></code>: <code class="docutils literal notranslate"><span class="pre">Bearbeiten</span></code> → <code class="docutils literal notranslate"><span class="pre">Einstellungen</span></code>) unter <code class="docutils literal notranslate"><span class="pre">Benutzeroberfläche</span></code> → <code class="docutils literal notranslate"><span class="pre">Thema</span></code> geändert werden.</p>
+<p>→ <strong>Die Einstellungen werden nach einem Neustart übernommen</strong></p>
+<div class="figure align-default" id="untitled-4">
+<a class="reference internal image-reference" href="../_images/Untitled_4.png"><img alt="../_images/Untitled_4.png" src="../_images/Untitled_4.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.6 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-4" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="datei-speichern">
+<h3><span class="section-number">4.1.5. </span>Datei speichern<a class="headerlink" href="#datei-speichern" title="Permalink to this headline">¶</a></h3>
+<p>Speichern Sie ihre Datei mit dem Namen “Solarzelle.svg” auf ihrem Computer.</p>
+<p><strong>DATEI SPEICHERN UNTER</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code>+ <code class="docutils literal notranslate"><span class="pre">S</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">Speichern</span> <span class="pre">Unter...</span></code>)</p>
+<p><strong>DATEI SPEICHERN</strong>
+(<code class="docutils literal notranslate"><span class="pre">STR</span></code>+ <code class="docutils literal notranslate"><span class="pre">S</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">Speichern</span></code>)</p>
+<p>Später sollten Sie sich angewöhnen regelmäßig <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">S</span></code> zu drücken um im Falle des Programmabsturzes nicht Ihre Zeichnung zu verlieren.</p>
+</div>
+<div class="section" id="seite-einrichten">
+<h3><span class="section-number">4.1.6. </span><strong>Seite Einrichten</strong><a class="headerlink" href="#seite-einrichten" title="Permalink to this headline">¶</a></h3>
+<p>Wir legen zu Beginn die Größe der <code class="docutils literal notranslate"><span class="pre">Page</span> <span class="pre">Area</span></code> über die <code class="docutils literal notranslate"><span class="pre">**Dokumenteneinstellung**</span></code>, welche in der <strong><code class="docutils literal notranslate"><span class="pre">Docking</span> <span class="pre">Area</span></code></strong> erscheint. Gegeben falls muss man den <strong><code class="docutils literal notranslate"><span class="pre">Scrollbalken</span></code></strong> verwenden um die <strong><code class="docutils literal notranslate"><span class="pre">Dokumenteneinstellungen</span></code></strong> zu finden.</p>
+<div class="figure align-default" id="untitled-5">
+<a class="reference internal image-reference" href="../_images/Untitled_5.png"><img alt="../_images/Untitled_5.png" src="../_images/Untitled_5.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.7 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-5" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>DOKUMENTENEINSTELLUNGEN</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">D</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">Dokumenteneinstellungen...</span></code>)</p>
+<p><strong>Reiter</strong>: <strong><code class="docutils literal notranslate"><span class="pre">Seite</span></code></strong></p>
+<div class="figure align-default" id="untitled-6">
+<a class="reference internal image-reference" href="../_images/Untitled_6.png"><img alt="../_images/Untitled_6.png" src="../_images/Untitled_6.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.8 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-6" title="Permalink to this image">¶</a></p>
+</div>
+<p>Die <strong>Seitenbreite</strong> sollte so eingestellt werden, wie sie im <strong>späteren LaTeX Dokument verwendet wird</strong>, um die Schriftgrößen konsistent zu halten.</p>
+<p>Die Höhe kann später an die fertige Abbildung angepasst werden.</p>
+<div class="figure align-default" id="bildbreite">
+<a class="reference internal image-reference" href="../_images/Bildbreite.png"><img alt="../_images/Bildbreite.png" src="../_images/Bildbreite.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.9 </span><span class="caption-text">caption</span><a class="headerlink" href="#bildbreite" title="Permalink to this image">¶</a></p>
+</div>
+<p>Veranschaulichung der Seitenbreite im LaTeX Dokument</p>
+<p>Wir wählen also eine <code class="docutils literal notranslate"><span class="pre">Seitenbreite</span></code> von <code class="docutils literal notranslate"><span class="pre">180mm</span></code>. Dafür auch die <code class="docutils literal notranslate"><span class="pre">Einheit</span></code> auf <code class="docutils literal notranslate"><span class="pre">mm</span></code> setzen. Die <code class="docutils literal notranslate"><span class="pre">Höhe</span></code> lassen wir erstmal auf der <code class="docutils literal notranslate"><span class="pre">Standardeinstellung</span></code>.</p>
+<div class="figure align-default" id="untitled-7">
+<a class="reference internal image-reference" href="../_images/Untitled_7.png"><img alt="../_images/Untitled_7.png" src="../_images/Untitled_7.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.10 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-7" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="gitter-einstellen">
+<h3><span class="section-number">4.1.7. </span>Gitter einstellen<a class="headerlink" href="#gitter-einstellen" title="Permalink to this headline">¶</a></h3>
+<p>Als nächstes stellen wir ein Gitter ein, welches uns beim erstellen von Geometrien hilft in definierten Abständen zu arbeiten.</p>
+<p>Klicken Sie in den <code class="docutils literal notranslate"><span class="pre">Dokumenteneinstellungen</span></code> auf <code class="docutils literal notranslate"><span class="pre">Gitter</span></code> und Stellen Sie ein Gitter mit 1mm Abstand und dicken Linien aller 5mm ein.</p>
+<p><strong>DOKUMENTENEINSTELLUNGEN</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">D</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">Dokumenteneinstellungen...</span></code>)</p>
+<p><strong>Reiter</strong>: <strong><code class="docutils literal notranslate"><span class="pre">Gitter</span></code></strong></p>
+<div class="figure align-default" id="untitled-8">
+<a class="reference internal image-reference" href="../_images/Untitled_8.png"><img alt="../_images/Untitled_8.png" src="../_images/Untitled_8.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.11 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-8" title="Permalink to this image">¶</a></p>
+</div>
+<p>Durch den Button <code class="docutils literal notranslate"><span class="pre">Neu</span></code> erstellen wir ein neues Gitter und Stellen auf <code class="docutils literal notranslate"><span class="pre">mm</span></code> um und wählen alle 1mm in x und y Richtung ein Gitter. Alle <strong>5 Gitterlinien</strong> soll eine <strong>Dicke Gitterlinie</strong> erstellt werden (Standardeinstellung)</p>
+<div class="figure align-default" id="untitled-9">
+<a class="reference internal image-reference" href="../_images/Untitled_9.png"><img alt="../_images/Untitled_9.png" src="../_images/Untitled_9.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.12 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-9" title="Permalink to this image">¶</a></p>
+</div>
+<p>Mit der Taste <code class="docutils literal notranslate"><span class="pre">#</span></code> kann die <strong>Sichtbarkeit des Gitters an/aus geschaltet</strong> werden.</p>
+</div>
+<div class="section" id="anderung-der-ansicht">
+<h3><span class="section-number">4.1.8. </span>Änderung der Ansicht<a class="headerlink" href="#anderung-der-ansicht" title="Permalink to this headline">¶</a></h3>
+<p>Hier eine kurze Übersicht der Befehle die Sie benötigen um die Ansicht im <code class="docutils literal notranslate"><span class="pre">Canvas</span></code> zu verändern:</p>
+<p>🔍 <strong>Zoom</strong>: <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">Mausrad</span></code></p>
+<p>🔍 <strong>Zoom (Auswahl</strong> in Fenster einpassen**)**: <code class="docutils literal notranslate"><span class="pre">3</span></code></p>
+<p>🔍 <strong>Zoom (Zeichnung</strong> in Fenster einpassen**)**: <code class="docutils literal notranslate"><span class="pre">4</span></code></p>
+<p>🔍 <strong>Zoom (Seite</strong> in Fenster einpassen**)**: <code class="docutils literal notranslate"><span class="pre">5</span></code></p>
+<p>🔍 <strong>Zoom (Seitenbreite</strong> in Fenster einpassen**)**: <code class="docutils literal notranslate"><span class="pre">6</span></code></p>
+<p>↔️ <strong>Verschieben (horizontal)</strong>: <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> +  <code class="docutils literal notranslate"><span class="pre">Mausrad</span></code>   <strong>ODER</strong>   <code class="docutils literal notranslate"><span class="pre">**Scrollbalken**</span> <span class="pre">unten</span></code></p>
+<p>↕️ <strong>Verschieben (vertikal)</strong>: <code class="docutils literal notranslate"><span class="pre">Mausrad</span></code>   <strong>ODER</strong>   <code class="docutils literal notranslate"><span class="pre">**Scrollbalken**</span> <span class="pre">rechts</span></code></p>
+<p><strong>Außerdem</strong>:</p>
+<ul class="simple">
+<li><p>Durch <strong>halten</strong> der <code class="docutils literal notranslate"><span class="pre">mittleren</span> <span class="pre">Maustaste</span></code> kann die <strong>Ansicht</strong> <code class="docutils literal notranslate"><span class="pre">mit</span> <span class="pre">der</span> <span class="pre">Maus</span></code> in die <strong>gewünschte Richtung bewegt</strong> werden</p></li>
+<li><p>Durch <strong>halten</strong> der <code class="docutils literal notranslate"><span class="pre">mittleren</span> <span class="pre">Maustaste</span></code>  + <code class="docutils literal notranslate"><span class="pre">**STR**</span></code> kann die <strong>Ansicht</strong> <code class="docutils literal notranslate"><span class="pre">mit</span> <span class="pre">der</span> <span class="pre">Maus</span></code> in die <strong>gewünschte Richtung gedreht</strong> werden</p></li>
+</ul>
+<p>Rechts unten kann dies wieder zurück gesetzt werden</p>
+<div class="figure align-default" id="untitled-10">
+<a class="reference internal image-reference" href="../_images/Untitled_10.png"><img alt="../_images/Untitled_10.png" src="../_images/Untitled_10.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.13 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-10" title="Permalink to this image">¶</a></p>
+</div>
+<p>Bei kleineren Zoom-Stufen werden <strong>nur die Dicken Gitterlinien</strong> (<em>im Beispiel 5mm</em>) <strong>angezeigt.</strong>  Die <strong>normalen Gitterlinien</strong> (<em>im Beispiel 1mm</em>) werden ab einer <strong>Vergrößerung von 200%</strong> angezeigt</p>
+<div class="figure align-default" id="gitter-zoom">
+<a class="reference internal image-reference" href="../_images/Gitter_Zoom.gif"><img alt="../_images/Gitter_Zoom.gif" src="../_images/Gitter_Zoom.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.14 </span><span class="caption-text">caption</span><a class="headerlink" href="#gitter-zoom" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="erstellung-der-solarzelle">
+<h2><span class="section-number">4.2. </span>Erstellung der Solarzelle<a class="headerlink" href="#erstellung-der-solarzelle" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="ebenen">
+<h3><span class="section-number">4.2.1. </span>Ebenen<a class="headerlink" href="#ebenen" title="Permalink to this headline">¶</a></h3>
+<p><strong>Ebenen</strong> sind hilfreich um Sachen zum <strong>gruppieren</strong> von Objekten bzw diese zu <strong>blockieren</strong> (damit Sie nicht angeklickt und verändert werden können) oder um die <strong>Sichtbarkeit ein/auszuschalten</strong>.</p>
+<div class="figure align-default" id="untitled-11">
+<a class="reference internal image-reference" href="../_images/Untitled_11.png"><img alt="../_images/Untitled_11.png" src="../_images/Untitled_11.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.15 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-11" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>EBENEN</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">L</span></code>) oder  (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Commands-Bar</span></code> (oben))
+oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Ebene</span></code>→  <code class="docutils literal notranslate"><span class="pre">Ebenen</span></code>)</p>
+<div class="figure align-default" id="untitled-12">
+<a class="reference internal image-reference" href="../_images/Untitled_12.png"><img alt="../_images/Untitled_12.png" src="../_images/Untitled_12.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.16 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-12" title="Permalink to this image">¶</a></p>
+</div>
+<p>Erstellen Sie eine neue Ebene mit dem Namen (<strong>Recherchematerial</strong>) und positionieren Sie diese unter der “Ebene 1”</p>
+<div class="figure align-default" id="ebene-erzeugen">
+<a class="reference internal image-reference" href="../_images/Ebene_Erzeugen.gif"><img alt="../_images/Ebene_Erzeugen.gif" src="../_images/Ebene_Erzeugen.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.17 </span><span class="caption-text">caption</span><a class="headerlink" href="#ebene-erzeugen" title="Permalink to this image">¶</a></p>
+</div>
+<p>Bei der <strong>Ebenenpositionierung</strong> wird festgelegt in welcher Reihenfolge die Objekte übereinander dargestellt werden.</p>
+<p>Durch das <strong>Blockieren</strong> können Ebenen nicht mehr ausgewählt und verändert werden. Dies ist besonders hilfreich um nicht ungewollt etwas auszuwählen.</p>
+<p>Die <strong>Sichtbarkeit</strong> kann ausgeblendet werden und beim Export werden diese Ebenen dann auch nicht im Bild sichtbar sein.</p>
+<div class="figure align-default" id="ebenen-erklaerung">
+<a class="reference internal image-reference" href="../_images/Ebenen_Erklaerung.png"><img alt="../_images/Ebenen_Erklaerung.png" src="../_images/Ebenen_Erklaerung.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.18 </span><span class="caption-text">caption</span><a class="headerlink" href="#ebenen-erklaerung" title="Permalink to this image">¶</a></p>
+</div>
+<p>Kopieren Sie das Bild aus der Bildersuche (im Browser Rechtsklick auf das Bild → <code class="docutils literal notranslate"><span class="pre">Kopieren</span></code> ).</p>
+<p>Wählen Sie die Ebene “Recherchematerial” aus und fügen Sie das kopierte Bild mit (<code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">V</span></code>) in Inkscape ein.</p>
+<p><em>Wenn Das Bild als Datei vorliegt können Sie Bilder aus dem Dateiexplorer direkt per Drag&amp;Drop in das Inkscape Fenster ziehen</em></p>
+<p><strong>Positionieren</strong> Sie nun das <strong>Bild</strong> mit dem <code class="docutils literal notranslate"><span class="pre">Auswahltool</span></code> durch <strong>Anklicken</strong> und <strong>verschieben</strong> so wie Sie es haben wollen (vermutlich außerhalb der <code class="docutils literal notranslate"><span class="pre">Page</span> <span class="pre">Area</span></code>)</p>
+<div class="figure align-default" id="untitled-13">
+<a class="reference internal image-reference" href="../_images/Untitled_13.png"><img alt="../_images/Untitled_13.png" src="../_images/Untitled_13.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.19 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-13" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>AUSWAHL TOOL</strong>
+(<code class="docutils literal notranslate"><span class="pre">S</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Toolbox</span></code> (links))</p>
+<p><strong>Blockieren</strong> Sie die Ebene “<strong>Recherchematerial”</strong> anschließend mit dem <strong>Klick auf das Schloss</strong> neben dem Namen im Ebenenfenster.</p>
+</div>
+<div class="section" id="objekterstellung-rechteck-tool">
+<h3><span class="section-number">4.2.2. </span>Objekterstellung <code class="docutils literal notranslate"><span class="pre">Rechteck-Tool</span></code><a class="headerlink" href="#objekterstellung-rechteck-tool" title="Permalink to this headline">¶</a></h3>
+<p>Wählen Sie nun die “<strong>Ebene 1</strong>” aus benennen Sie diese um in “<strong>Solarzelle</strong>” (Doppelklick auf den Namen im Ebenenfenster)</p>
+<p>Objekte werden immer in der ausgewählten Ebene erstellt. Wenn Sie kein Objekt erzeugen können kann es daran liegen, dass Sie eine Ebene ausgewählt haben die blockiert ist.</p>
+<p>Wählen Sie das <code class="docutils literal notranslate"><span class="pre">Rechteck-Tool</span></code> aus</p>
+<div class="figure align-default" id="untitled-14">
+<a class="reference internal image-reference" href="../_images/Untitled_14.png"><img alt="../_images/Untitled_14.png" src="../_images/Untitled_14.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.20 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-14" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>RECHTECK TOOL</strong>
+(<code class="docutils literal notranslate"><span class="pre">R</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Toolbox</span></code> (links))</p>
+</div>
+<div class="section" id="snapping">
+<h3><span class="section-number">4.2.3. </span>Snapping<a class="headerlink" href="#snapping" title="Permalink to this headline">¶</a></h3>
+<p>Wir wollen nun bei der Erstellung der Geometrie unser Gitter nutzen.</p>
+<p>Überprüfen Sie ob Sie die Standardeinstellung für das Snapping (Bild Rechts) so eingestellt haben.</p>
+<p>Das <strong>Ein</strong> und <strong>Ausschalten des Snapping</strong> erfolgt über den <strong>obersten Button</strong> oder die Taste <code class="docutils literal notranslate"><span class="pre">%</span></code> (<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">5</span></code>)</p>
+<p>Das <strong>Snapping</strong> ist auch hilfreich beim <strong>ändern der Größe</strong> oder <strong>beim verschieben.</strong></p>
+<p>Wenn Sie mit dem Cursor <strong>über das jeweilige Feld in der Snapping Leiste rechts</strong> fahren wird Ihnen erklärt was jede Option genau macht.</p>
+<div class="figure align-default" id="untitled-15">
+<a class="reference internal image-reference" href="../_images/Untitled_15.png"><img alt="../_images/Untitled_15.png" src="../_images/Untitled_15.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.21 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-15" title="Permalink to this image">¶</a></p>
+</div>
+<p>Erstellen Sie nun mit dem <code class="docutils literal notranslate"><span class="pre">Rechteck</span> <span class="pre">Tool</span></code> ein den unteren blauen Bereich der Solarzelle (<em>z.B. in Breite 70mm und Höhe 50mm</em>)</p>
+<div class="figure align-default" id="untitled-16">
+<a class="reference internal image-reference" href="../_images/Untitled_16.png"><img alt="../_images/Untitled_16.png" src="../_images/Untitled_16.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.22 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-16" title="Permalink to this image">¶</a></p>
+</div>
+<p>Falls Sie das Gitter ausgeblendet haben, können Sie es mit <code class="docutils literal notranslate"><span class="pre">#</span></code> wieder einblenden,</p>
+</div>
+<div class="section" id="fullung-und-kontur">
+<h3><span class="section-number">4.2.4. </span>Füllung und Kontur<a class="headerlink" href="#fullung-und-kontur" title="Permalink to this headline">¶</a></h3>
+<p>Flächenobjekte (wie z.B. Rechtecke und Kreise) haben immer eine Füllung und eine Kontur. Beides kann eine Farbe haben oder nicht vorhanden sein. Weiterhin kann man den Linientyp ändern (dazu gleich später mehr).</p>
+<p><strong>Von der ausgewählten Geometrie</strong> wird unten links wird immer die <strong>Kontur</strong>- und <strong>Füllfarbe</strong> angezeigt, sowie die <strong>Konturdicke</strong> und die <strong>aktuelle Ebene</strong></p>
+<div class="figure align-default" id="stroke-fill">
+<a class="reference internal image-reference" href="../_images/Stroke_Fill.png"><img alt="../_images/Stroke_Fill.png" src="../_images/Stroke_Fill.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.23 </span><span class="caption-text">caption</span><a class="headerlink" href="#stroke-fill" title="Permalink to this image">¶</a></p>
+</div>
+<p>Mit Rechtsklick auf die Konturdicke kann diese geändert werden.</p>
+<p>Änderung der <strong>Konturfarbe</strong> : <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">Mausklick</span> <span class="pre">auf</span> <span class="pre">Farbe</span> <span class="pre">(aus</span> <span class="pre">Palette</span> <span class="pre">unten)</span></code></p>
+<p>Änderung der <strong>Füllfarbe</strong> :  <code class="docutils literal notranslate"><span class="pre">Mausklick</span> <span class="pre">auf</span> <span class="pre">Farbe</span> <span class="pre">(aus</span> <span class="pre">Palette</span> <span class="pre">unten)</span></code></p>
+<p>Möchte man die Kontur ausstellen kann man mit <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">Mausklick</span> <span class="pre">auf</span> <span class="pre">das</span> <span class="pre">X</span> <span class="pre">(ganz</span> <span class="pre">links</span> <span class="pre">in</span> <span class="pre">der</span> <span class="pre">Palette)</span></code>. Gleiches funktioniert für die Füllung (ohne die <code class="docutils literal notranslate"><span class="pre">Shift</span></code> Taste)</p>
+<p>Hier wird die Einstellung der Konturdicke sowie das Ausstellen der Kontur und die Einstelliung der Füllfarbe demonstriert:</p>
+<div class="figure align-default" id="fill-stroke">
+<a class="reference internal image-reference" href="../_images/Fill_Stroke.gif"><img alt="../_images/Fill_Stroke.gif" src="../_images/Fill_Stroke.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.24 </span><span class="caption-text">caption</span><a class="headerlink" href="#fill-stroke" title="Permalink to this image">¶</a></p>
+</div>
+<p>Es wird wird jedoch <strong>empfohlen Farben mit weniger Sättigung zu nehme</strong>n. Dazu gibt es im Bereich der Farbpaletten einige Auswahl.</p>
+<div class="figure align-default" id="untitled-17">
+<a class="reference internal image-reference" href="../_images/Untitled_17.png"><img alt="../_images/Untitled_17.png" src="../_images/Untitled_17.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.25 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-17" title="Permalink to this image">¶</a></p>
+</div>
+<p>Eine weitere Möglichkeit wäre mit  <code class="docutils literal notranslate"><span class="pre">Füllung</span> <span class="pre">und</span> <span class="pre">Kontur</span></code></p>
+<div class="figure align-default" id="untitled-18">
+<a class="reference internal image-reference" href="../_images/Untitled_18.png"><img alt="../_images/Untitled_18.png" src="../_images/Untitled_18.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.26 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-18" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>FÜLLUNG UND KONTUR</strong>
+(<code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">F</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Commands-Bar</span></code> (oben))</p>
+<div class="figure align-default" id="untitled-19">
+<a class="reference internal image-reference" href="../_images/Untitled_19.png"><img alt="../_images/Untitled_19.png" src="../_images/Untitled_19.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.27 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-19" title="Permalink to this image">¶</a></p>
+</div>
+<p>Im Reiter <code class="docutils literal notranslate"><span class="pre">Füllung</span></code>  kann über die Option <code class="docutils literal notranslate"><span class="pre">HSL</span></code> folgenes eingestellt werden:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">H</span></code> der Hue (also die Farbe)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">S</span></code> die Sättigung (wie intensiv ist die Farbe)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">L</span></code> die Helligkeit</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">A</span></code> der Alphawert (also die Transparenz)</p></li>
+</ul>
+</div>
+<div class="section" id="pipetten-tool">
+<h3><span class="section-number">4.2.5. </span>Pipetten Tool<a class="headerlink" href="#pipetten-tool" title="Permalink to this headline">¶</a></h3>
+<p>Zuletzt kann die Füllung noch mit dem Pipetten Tool (z.B. aus unserer Referenz gezogen werden)</p>
+<div class="figure align-default" id="untitled-20">
+<a class="reference internal image-reference" href="../_images/Untitled_20.png"><img alt="../_images/Untitled_20.png" src="../_images/Untitled_20.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.28 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-20" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>PIPETTEN TOOL</strong>
+(<code class="docutils literal notranslate"><span class="pre">R</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Toolbox</span></code> (links))</p>
+<p>mit der Tastenkombination <code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">Mausklick</span> <span class="pre">auf</span> <span class="pre">den</span> <span class="pre">Farbbereich</span></code> kann die Farbe auch für die <strong>Kontur</strong> übernommen werden</p>
+<div class="figure align-default" id="pipette">
+<a class="reference internal image-reference" href="../_images/Pipette.gif"><img alt="../_images/Pipette.gif" src="../_images/Pipette.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.29 </span><span class="caption-text">caption</span><a class="headerlink" href="#pipette" title="Permalink to this image">¶</a></p>
+</div>
+<p>Erstellen Sie nun ein <strong>weiteres Rechteck über dem ersten mit einer dunkleren Farbe</strong><br />
+(<em>z.B. in Breite 70mm und Höhe 30mm</em>)</p>
+<p>So sollte unsere Solarzelle jetzt nun aussehen:</p>
+<div class="figure align-default" id="untitled-21">
+<a class="reference internal image-reference" href="../_images/Untitled_21.png"><img alt="../_images/Untitled_21.png" src="../_images/Untitled_21.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.30 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-21" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="bezierkurven-tool">
+<h3><span class="section-number">4.2.6. </span>Bezierkurven Tool<a class="headerlink" href="#bezierkurven-tool" title="Permalink to this headline">¶</a></h3>
+<p>Wir zeichnen nun die <strong>Linie zwischen den zwei Bereichen</strong> mit dem <code class="docutils literal notranslate"><span class="pre">Bezierkurven</span> <span class="pre">Tool</span></code></p>
+<div class="figure align-default" id="untitled-22">
+<a class="reference internal image-reference" href="../_images/Untitled_22.png"><img alt="../_images/Untitled_22.png" src="../_images/Untitled_22.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.31 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-22" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>BEZIERKURVEN TOOL</strong>
+(<code class="docutils literal notranslate"><span class="pre">B</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Toolbox</span></code> (links))</p>
+<p>Wählen Sie das <code class="docutils literal notranslate"><span class="pre">Bezierkurven</span> <span class="pre">Tool</span></code> und zeichnen Sie eine <code class="docutils literal notranslate"><span class="pre">weiße</span> <span class="pre">Linie</span></code> der <code class="docutils literal notranslate"><span class="pre">Dicke</span> <span class="pre">0,75mm</span></code> zwischen die zwei Rechtecke</p>
+<p>Um den <strong>Endpunkt</strong> beim <code class="docutils literal notranslate"><span class="pre">Bezierkurven</span> <span class="pre">Tool</span></code> zu setzen müssen die einen <code class="docutils literal notranslate"><span class="pre">Doppelklick</span></code> verwenden</p>
+<div class="figure align-default" id="mittellinie">
+<a class="reference internal image-reference" href="../_images/Mittellinie.gif"><img alt="../_images/Mittellinie.gif" src="../_images/Mittellinie.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.32 </span><span class="caption-text">caption</span><a class="headerlink" href="#mittellinie" title="Permalink to this image">¶</a></p>
+</div>
+<p>Duplizieren Sie die mittlere Linie (<code class="docutils literal notranslate"><span class="pre">Str</span></code> +<code class="docutils literal notranslate"><span class="pre">D</span></code>) und verschieben Sie diese mit <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">PFEILTASTE</span> <span class="pre">HOCH</span></code> zwei mal nach oben. Wiederholen Sie den Vorgang um eine Linie unterhalb zu erzeugen.</p>
+<div class="figure align-default" id="mittellinie-duplizieren">
+<a class="reference internal image-reference" href="../_images/Mittellinie-duplizieren.gif"><img alt="../_images/Mittellinie-duplizieren.gif" src="../_images/Mittellinie-duplizieren.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.33 </span><span class="caption-text">caption</span><a class="headerlink" href="#mittellinie-duplizieren" title="Permalink to this image">¶</a></p>
+</div>
+<p>Selektieren Sie die obere und untere Linie und öffnen Sie <code class="docutils literal notranslate"><span class="pre">Füllung</span> <span class="pre">und</span> <span class="pre">Kontur</span></code> (<code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">Str</span></code> + <code class="docutils literal notranslate"><span class="pre">F</span></code>) und wählen Sie einen <code class="docutils literal notranslate"><span class="pre">Liniendicke</span> <span class="pre">von</span> <span class="pre">0,4mm</span></code> und einen <code class="docutils literal notranslate"><span class="pre">gepunkteten</span> <span class="pre">Linientyp</span></code> Ihrer Wahl.</p>
+</div>
+<div class="section" id="fullung-und-kontur-linientyp">
+<h3><span class="section-number">4.2.7. </span>Füllung und Kontur (Linientyp)<a class="headerlink" href="#fullung-und-kontur-linientyp" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default" id="id1">
+<a class="reference internal image-reference" href="../_images/Untitled_18.png"><img alt="../_images/Untitled_18.png" src="../_images/Untitled_18.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.34 </span><span class="caption-text">caption</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>FÜLLUNG UND KONTUR</strong>
+(<code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">F</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Commands-Bar</span></code> (oben))</p>
+<div class="figure align-default" id="untitled-23">
+<a class="reference internal image-reference" href="../_images/Untitled_23.png"><img alt="../_images/Untitled_23.png" src="../_images/Untitled_23.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.35 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-23" title="Permalink to this image">¶</a></p>
+</div>
+<p>Erstellen Sie <strong>ein positiv geladenes Teilchen</strong> mit dem <code class="docutils literal notranslate"><span class="pre">Kreis</span> <span class="pre">Tool</span></code> (Shift gedrückt halten für Kreis) und dem <code class="docutils literal notranslate"><span class="pre">Bezierkurven-Tool</span></code> mit <code class="docutils literal notranslate"><span class="pre">weißer</span> <span class="pre">Farbe</span></code> und einer Linienstärke von <code class="docutils literal notranslate"><span class="pre">0,5mm</span></code></p>
+</div>
+<div class="section" id="kreis-ellipse-bogen-tool">
+<h3><span class="section-number">4.2.8. </span>Kreis/Ellipse/Bogen Tool<a class="headerlink" href="#kreis-ellipse-bogen-tool" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default" id="untitled-24">
+<a class="reference internal image-reference" href="../_images/Untitled_24.png"><img alt="../_images/Untitled_24.png" src="../_images/Untitled_24.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.36 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-24" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>KREIS/ELLIPSE/BOGEN TOOL</strong>
+(<code class="docutils literal notranslate"><span class="pre">E</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Toolbox</span></code> (links))</p>
+<p><strong>Kreis/Ellipse</strong> vom <strong>Mittelpunkt</strong> aus erstellen**: <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code>** gedrückt halten</p>
+<p><strong>Kreis</strong> erstellen**: <code class="docutils literal notranslate"><span class="pre">STR</span></code>** gedrückt halten</p>
+<div class="figure align-default" id="untitled-25">
+<a class="reference internal image-reference" href="../_images/Untitled_25.png"><img alt="../_images/Untitled_25.png" src="../_images/Untitled_25.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.37 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-25" title="Permalink to this image">¶</a></p>
+</div>
+<p>Wenn Sie nur eine <strong>Kreiskontur</strong> erstellen wollen, <strong>entfernen Sie vorher die Füllung</strong> (<code class="docutils literal notranslate"><span class="pre">Mausklick</span> <span class="pre">auf</span> <span class="pre">X</span></code> in der Farbpalette) und wählen Sie eine <strong>Farbe für die Kontur</strong> (<code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">Mausklick</span> <span class="pre">auf</span> <span class="pre">Farbe</span> <span class="pre">in</span> <span class="pre">Palette</span></code>)</p>
+<p>So würde dies dann aussehen:</p>
+<div class="figure align-default" id="elektronen">
+<a class="reference internal image-reference" href="../_images/Elektronen.gif"><img alt="../_images/Elektronen.gif" src="../_images/Elektronen.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.38 </span><span class="caption-text">caption</span><a class="headerlink" href="#elektronen" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="gruppieren">
+<h3><span class="section-number">4.2.9. </span>Gruppieren<a class="headerlink" href="#gruppieren" title="Permalink to this headline">¶</a></h3>
+<p><strong>Neben den Ebenen</strong> gibt es eine <strong>weitere Möglichkeit der</strong> <strong>Strukturierung</strong> von Objekten, dies ist die Gruppierung. In unserem Fall können wir unsere positiv geladenes Teilchen (<code class="docutils literal notranslate"><span class="pre">Kreis</span></code> mit dem <code class="docutils literal notranslate"><span class="pre">+</span> <span class="pre">Symbol</span></code>) als eine Gruppe zusammenfassen um diese Gruppe dann durch einen Klick auswählen und damit einfacher zu positionieren.</p>
+<div class="figure align-default" id="untitled-26">
+<a class="reference internal image-reference" href="../_images/Untitled_26.png"><img alt="../_images/Untitled_26.png" src="../_images/Untitled_26.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.39 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-26" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>GRUPPIERUNG ERSTELLEN</strong>
+<code class="docutils literal notranslate"><span class="pre">Objekte</span> <span class="pre">auswählen</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">G</span></code> oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Commands-Bar</span></code> (oben))</p>
+<div class="figure align-default" id="untitled-27">
+<a class="reference internal image-reference" href="../_images/Untitled_27.png"><img alt="../_images/Untitled_27.png" src="../_images/Untitled_27.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.40 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-27" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>GRUPPIERUNG AUFHEBEN</strong>
+<code class="docutils literal notranslate"><span class="pre">Gruppierung</span> <span class="pre">auswählen</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> +  <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> +  <code class="docutils literal notranslate"><span class="pre">G</span></code>  oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Commands-Bar</span></code> (oben))</p>
+<p><strong>Duplizieren</strong> Sie das positive Teilchen und verschieben es, so das man beide sehe kann. Anschließend löschen Sie die vertikale Linie um ein negativ geladenes Teilchen zu erstellen. Anschließend Gruppieren (<code class="docutils literal notranslate"><span class="pre">STR</span></code>+<code class="docutils literal notranslate"><span class="pre">G</span></code>) Sie beide Teilchen jeweils einzeln wieder.</p>
+<p>Nun wollen wir jeweils <code class="docutils literal notranslate"><span class="pre">3</span> <span class="pre">positive</span></code> und <code class="docutils literal notranslate"><span class="pre">3</span> <span class="pre">negative</span></code> Teilchen auf der Solarzelle verteilen. Dafür müssen wir diese jeweils Duplizieren (<code class="docutils literal notranslate"><span class="pre">STR</span></code>+<code class="docutils literal notranslate"><span class="pre">D</span></code>) und diese bewegen bzw. ausrichten. Wie dies geschieht erfahren wir im folgenden:</p>
+</div>
+<div class="section" id="objekte-bewegen">
+<h3><span class="section-number">4.2.10. </span>Objekte bewegen<a class="headerlink" href="#objekte-bewegen" title="Permalink to this headline">¶</a></h3>
+<p>Prinzipiell gibt es drei Möglichkeiten zur Positionierung von Objekten</p>
+<ol class="simple">
+<li><p>Mit der <code class="docutils literal notranslate"><span class="pre">Maus</span></code> (mit/ohne <span class="xref myst">Snapping</span>)</p></li>
+<li><p>Mit den <code class="docutils literal notranslate"><span class="pre">Pfeiltasten</span></code> in definierten Schritten (klein/normal/groß)</p></li>
+<li><p>Mit dem Tool <code class="docutils literal notranslate"><span class="pre">Objekte</span> <span class="pre">Ausrichten</span></code></p></li>
+</ol>
+<p>Ich persönlich benutze am meisten das <code class="docutils literal notranslate"><span class="pre">Objekte</span> <span class="pre">Ausrichten</span></code> Tool, weil es am vielfältigsten ist und man die Sachen genau ausrichten kann.</p>
+</div>
+<div class="section" id="objekt-bewegung-mit-den-pfeiltasten">
+<h3><span class="section-number">4.2.11. </span>Objekt Bewegung mit den Pfeiltasten ⬅️/➡️/⬆️/⬇️<a class="headerlink" href="#objekt-bewegung-mit-den-pfeiltasten" title="Permalink to this headline">¶</a></h3>
+<p>Dies ist besonders hilfreich wenn man Objekte dupliziert (<code class="docutils literal notranslate"><span class="pre">STR</span></code>+<code class="docutils literal notranslate"><span class="pre">D</span></code>) und diese dann in einem definierten Abstand davon weg bewegen will</p>
+<p>Ich nutze oft die Option mit den großen Schritten (<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code>+<code class="docutils literal notranslate"><span class="pre">PFEILTASTEN</span></code>) und zähle dann z.B. die Schritte um es bei der Wiederholung im gleichen Abstand zu erstellen.</p>
+<p><strong>BEWEGUNG MIT DEN PFEILTASTEN</strong></p>
+<p><strong>kleiner</strong> Bewegungsschritt**:**  <code class="docutils literal notranslate"><span class="pre">ALT</span></code> +  ⬅️/➡️/⬆️/⬇️</p>
+<p><strong>normaler</strong> Bewegungsschritt**:**   ⬅️/➡️/⬆️/⬇️</p>
+<p><strong>großer</strong> Bewegungsschritt**:**  <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> +  ⬅️/➡️/⬆️/⬇️</p>
+</div>
+<div class="section" id="objekt-bewegung-mit-dem-objekte-ausrichten-tool">
+<h3><span class="section-number">4.2.12. </span>Objekt Bewegung mit dem <code class="docutils literal notranslate"><span class="pre">Objekte</span> <span class="pre">Ausrichten</span></code> Tool<a class="headerlink" href="#objekt-bewegung-mit-dem-objekte-ausrichten-tool" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default" id="untitled-28">
+<a class="reference internal image-reference" href="../_images/Untitled_28.png"><img alt="../_images/Untitled_28.png" src="../_images/Untitled_28.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.41 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-28" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>OBJEKTE AUSRICHTEN</strong>
+(<code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">A</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Commands-Bar</span></code> (oben))</p>
+<p>Wir beschränken uns zunächst auf den <strong>Ausrichten Teil</strong> des Tools:</p>
+<div class="figure align-default" id="untitled-29">
+<a class="reference internal image-reference" href="../_images/Untitled_29.png"><img alt="../_images/Untitled_29.png" src="../_images/Untitled_29.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.42 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-29" title="Permalink to this image">¶</a></p>
+</div>
+<p>Wenn wir an einem Objekt ausrichten wollen was in einer Gruppierung ist, müssen wir dieses ggf aus der Gruppierung entfernen (<code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">G</span></code>)</p>
+<p>Wir starten mit dem Ausrichten Relativ zu <code class="docutils literal notranslate"><span class="pre">Zuletzt</span> <span class="pre">gewählt</span></code> und wollen <strong>nun ein Teilchen</strong> <strong>mittig an einer Linie</strong> (<strong>die wir zuletzt auswählen</strong>) ausrichten:</p>
+<div class="figure align-default" id="ausrichten-vertikal-mittig">
+<a class="reference internal image-reference" href="../_images/Ausrichten_vertikal-mittig.gif"><img alt="../_images/Ausrichten_vertikal-mittig.gif" src="../_images/Ausrichten_vertikal-mittig.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.43 </span><span class="caption-text">caption</span><a class="headerlink" href="#ausrichten-vertikal-mittig" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-30">
+<a class="reference internal image-reference" href="../_images/Untitled_30.png"><img alt="../_images/Untitled_30.png" src="../_images/Untitled_30.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.44 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-30" title="Permalink to this image">¶</a></p>
+</div>
+<p>Nun wollen wir, dass das Teilchen direkt an der Oberkante unseres unteren Rechtecks liegt. Damit wir das untere Rechteckt anklicken können muss man es ggf. aus der Gruppierung entfernen (<code class="docutils literal notranslate"><span class="pre">Gruppierung</span> <span class="pre">auswählen</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">G</span></code>)</p>
+<div class="figure align-default" id="ausrichten-vertikal-unterkante">
+<a class="reference internal image-reference" href="../_images/Ausrichten_vertikal-unterkante.gif"><img alt="../_images/Ausrichten_vertikal-unterkante.gif" src="../_images/Ausrichten_vertikal-unterkante.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.45 </span><span class="caption-text">caption</span><a class="headerlink" href="#ausrichten-vertikal-unterkante" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-31">
+<a class="reference internal image-reference" href="../_images/Untitled_31.png"><img alt="../_images/Untitled_31.png" src="../_images/Untitled_31.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.46 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-31" title="Permalink to this image">¶</a></p>
+</div>
+<p>Neben der vertikalen Ausrichtung gibt es das gleiche natürlich auch für die horizontale Ausrichtung</p>
+<p>Zur Veranschaulichung der <strong>Verteilungsfunktion</strong> habe ich ein paar mehr Teilchen erstellt, dies ist nicht Teil der finalen Abbildung</p>
+<p>Besonders praktisch ist die Funktion <code class="docutils literal notranslate"><span class="pre">Verteilen</span></code> die sich unterhalb von Ausrichten befindet. Hier ein Beispiel wo wir zunächst vertikal ausrichten am letzten Objekt und diese  Objekte anschließend im gleichen Abstand verteilen</p>
+<div class="figure align-default" id="verteilen1">
+<a class="reference internal image-reference" href="../_images/Verteilen1.gif"><img alt="../_images/Verteilen1.gif" src="../_images/Verteilen1.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.47 </span><span class="caption-text">caption</span><a class="headerlink" href="#verteilen1" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-32">
+<a class="reference internal image-reference" href="../_images/Untitled_32.png"><img alt="../_images/Untitled_32.png" src="../_images/Untitled_32.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.48 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-32" title="Permalink to this image">¶</a></p>
+</div>
+<p>Wenn wir nun die äußerste Teilchen weiter nach außen bewegen und dann neu verteilen sie es so aus:</p>
+<div class="figure align-default" id="verteilen2">
+<a class="reference internal image-reference" href="../_images/Verteilen2.gif"><img alt="../_images/Verteilen2.gif" src="../_images/Verteilen2.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.49 </span><span class="caption-text">caption</span><a class="headerlink" href="#verteilen2" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-33">
+<a class="reference internal image-reference" href="../_images/Untitled_33.png"><img alt="../_images/Untitled_33.png" src="../_images/Untitled_33.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.50 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-33" title="Permalink to this image">¶</a></p>
+</div>
+<p>Nun könnte man z.B. alle 7 Teilchen gruppieren (<code class="docutils literal notranslate"><span class="pre">STR</span></code>+<code class="docutils literal notranslate"><span class="pre">G</span></code>) und diese Gruppe wiederum z.B. an der Linie ausrichten</p>
+<div class="figure align-default" id="verteilen2-ausrichten3">
+<a class="reference internal image-reference" href="../_images/Verteilen2-ausrichten3.gif"><img alt="../_images/Verteilen2-ausrichten3.gif" src="../_images/Verteilen2-ausrichten3.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.51 </span><span class="caption-text">caption</span><a class="headerlink" href="#verteilen2-ausrichten3" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-34">
+<a class="reference internal image-reference" href="../_images/Untitled_34.png"><img alt="../_images/Untitled_34.png" src="../_images/Untitled_34.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.52 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-34" title="Permalink to this image">¶</a></p>
+</div>
+<p>Besonders praktisch ist die Funktion, wenn man wie im unten gezeigten Beispiel ein Objekt dupliziert (das Duplikat ist dann automatisch ausgewählt) und danach ein Referenzobjekt zur Ausrichtung auswählen, an dessen man das neue Duplikat ausrichten möchte</p>
+<div class="figure align-default" id="duplizieren-ausrichten">
+<a class="reference internal image-reference" href="../_images/Duplizieren_ausrichten.gif"><img alt="../_images/Duplizieren_ausrichten.gif" src="../_images/Duplizieren_ausrichten.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.53 </span><span class="caption-text">caption</span><a class="headerlink" href="#duplizieren-ausrichten" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-35">
+<a class="reference internal image-reference" href="../_images/Untitled_35.png"><img alt="../_images/Untitled_35.png" src="../_images/Untitled_35.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.54 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-35" title="Permalink to this image">¶</a></p>
+</div>
+<p>Neben <code class="docutils literal notranslate"><span class="pre">Zuletzt</span> <span class="pre">gewählt</span></code> gibt es viele andere Referenzmöglichkeiten.</p>
+<p>Ich persönlich nutze fast immer <code class="docutils literal notranslate"><span class="pre">Zuletzt</span> <span class="pre">gewählt</span></code> und in seltenen Fällen <code class="docutils literal notranslate"><span class="pre">Seite</span></code> als Referenz.</p>
+<div class="figure align-default" id="untitled-36">
+<a class="reference internal image-reference" href="../_images/Untitled_36.png"><img alt="../_images/Untitled_36.png" src="../_images/Untitled_36.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.55 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-36" title="Permalink to this image">¶</a></p>
+</div>
+<p>Verteilen Sie die Teilchen so wie unten in dem Bild und benutzen Sie dafür das <code class="docutils literal notranslate"><span class="pre">Ausrichten</span> <span class="pre">Tool</span></code></p>
+<div class="figure align-default" id="untitled-37">
+<a class="reference internal image-reference" href="../_images/Untitled_37.png"><img alt="../_images/Untitled_37.png" src="../_images/Untitled_37.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.56 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-37" title="Permalink to this image">¶</a></p>
+</div>
+<p>Damit die gepunktete Linie nicht im Kreis sichtbar ist, kann man mit dem <code class="docutils literal notranslate"><span class="pre">Pipetten-Tool</span></code> die <strong>Füllung der Rechtecke</strong> übernehmen.</p>
+<div class="figure align-default" id="untitled-38">
+<a class="reference internal image-reference" href="../_images/Untitled_38.png"><img alt="../_images/Untitled_38.png" src="../_images/Untitled_38.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.57 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-38" title="Permalink to this image">¶</a></p>
+</div>
+<p>Ohne Füllung im Kreis</p>
+<div class="figure align-default" id="untitled-39">
+<a class="reference internal image-reference" href="../_images/Untitled_39.png"><img alt="../_images/Untitled_39.png" src="../_images/Untitled_39.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.58 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-39" title="Permalink to this image">¶</a></p>
+</div>
+<p>Mit Füllung im Kreis</p>
+</div>
+<div class="section" id="objektgrosze-andern">
+<h3><span class="section-number">4.2.13. </span>Objektgröße ändern<a class="headerlink" href="#objektgrosze-andern" title="Permalink to this headline">¶</a></h3>
+<p>Um die Objektgröße zu ändern gibt es drei Optionen:</p>
+<ol class="simple">
+<li><p>Im Objekt selber</p></li>
+<li><p>In der <code class="docutils literal notranslate"><span class="pre">Tool-Control-Bar</span></code></p></li>
+<li><p>Mit dem <code class="docutils literal notranslate"><span class="pre">Transformations</span></code> Tool</p></li>
+</ol>
+<p>Wir behandeln zunächst die ersten zwei, das <code class="docutils literal notranslate"><span class="pre">Transformation-Tool</span></code> lernen wir später kennen.</p>
+</div>
+<div class="section" id="objektgrosze-im-objekt-andern">
+<h3><span class="section-number">4.2.14. </span>Objektgröße im Objekt ändern<a class="headerlink" href="#objektgrosze-im-objekt-andern" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default" id="gre-aendern-objekt-mit-snapping">
+<a class="reference internal image-reference" href="../_images/Gre_aendern_Objekt_mit_Snapping.gif"><img alt="../_images/Gre_aendern_Objekt_mit_Snapping.gif" src="../_images/Gre_aendern_Objekt_mit_Snapping.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.59 </span><span class="caption-text">caption</span><a class="headerlink" href="#gre-aendern-objekt-mit-snapping" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-40">
+<a class="reference internal image-reference" href="../_images/Untitled_40.png"><img alt="../_images/Untitled_40.png" src="../_images/Untitled_40.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.60 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-40" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Snapping</span></code> An</strong></p>
+<div class="figure align-default" id="untitled-41">
+<a class="reference internal image-reference" href="../_images/Untitled_41.png"><img alt="../_images/Untitled_41.png" src="../_images/Untitled_41.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.61 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-41" title="Permalink to this image">¶</a></p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">Knoten/Pfad</span> <span class="pre">einrasten</span></code>
+**<code class="docutils literal notranslate"><span class="pre">Eckpunkte**einrasten</span></code> ****</p>
+<p>Hier ist der Eckpunkt im Gitter eingerastet,, wenn dieser im Bild nicht sichtbar ist, funktioniert das Einrasten auch nicht.</p>
+<p>Aktivieren wir den Punkt Mittelpunkte einrasten, kann auch der Mittelpunkt einrasten, was uns im Zoom hilft, weil wir hier die Eckpunkte nicht sehen.</p>
+<div class="figure align-default" id="gre-aendern-objekt-mit-snapping-mittelpunkt">
+<a class="reference internal image-reference" href="../_images/Gre_aendern_Objekt_mit_Snapping_Mittelpunkt.gif"><img alt="../_images/Gre_aendern_Objekt_mit_Snapping_Mittelpunkt.gif" src="../_images/Gre_aendern_Objekt_mit_Snapping_Mittelpunkt.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.62 </span><span class="caption-text">caption</span><a class="headerlink" href="#gre-aendern-objekt-mit-snapping-mittelpunkt" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id2">
+<a class="reference internal image-reference" href="../_images/Untitled_40.png"><img alt="../_images/Untitled_40.png" src="../_images/Untitled_40.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.63 </span><span class="caption-text">caption</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Snapping</span></code> An</strong></p>
+<div class="figure align-default" id="untitled-42">
+<a class="reference internal image-reference" href="../_images/Untitled_42.png"><img alt="../_images/Untitled_42.png" src="../_images/Untitled_42.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.64 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-42" title="Permalink to this image">¶</a></p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">Knoten/Pfad</span> <span class="pre">einrasten</span></code>
+**<code class="docutils literal notranslate"><span class="pre">Mittelpunkte**</span> <span class="pre">einrasten</span></code> ****</p>
+<p>Komplett ohne Snapping geht es natürlich auch. Das ist besonders hilfreich wenn man dünne Strukturen erstellen will die kleiner als das Gitter sind</p>
+<div class="figure align-default" id="gre-aendern-objekt-ohne-snapping">
+<a class="reference internal image-reference" href="../_images/Gre_aendern_Objekt_ohne_Snapping.gif"><img alt="../_images/Gre_aendern_Objekt_ohne_Snapping.gif" src="../_images/Gre_aendern_Objekt_ohne_Snapping.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.65 </span><span class="caption-text">caption</span><a class="headerlink" href="#gre-aendern-objekt-ohne-snapping" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-43">
+<a class="reference internal image-reference" href="../_images/Untitled_43.png"><img alt="../_images/Untitled_43.png" src="../_images/Untitled_43.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.66 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-43" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Snapping</span></code> Aus</strong></p>
+</div>
+<div class="section" id="grosze-eines-kontur-andern-mit-ohne-skalierung">
+<h3><span class="section-number">4.2.15. </span>Größe eines Kontur ändern (mit/ohne) Skalierung<a class="headerlink" href="#grosze-eines-kontur-andern-mit-ohne-skalierung" title="Permalink to this headline">¶</a></h3>
+<p>Wenn Sie die Größe Ihrer Teilchen ändern und die Position behalten, so müssen sie STR+SHIFT gedrückt halten. Zusätzlich gibt es in der <code class="docutils literal notranslate"><span class="pre">Tool-Control-Bar</span></code> eine Option die definiert ob sich die Kontur mit skaliert wird. Schauen wir uns dies mal im Beispiel an:</p>
+<div class="figure align-default" id="objektvergroeserung-ohne-kontur">
+<a class="reference internal image-reference" href="../_images/Objektvergroeserung_ohne_Kontur.gif"><img alt="../_images/Objektvergroeserung_ohne_Kontur.gif" src="../_images/Objektvergroeserung_ohne_Kontur.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.67 </span><span class="caption-text">caption</span><a class="headerlink" href="#objektvergroeserung-ohne-kontur" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-44">
+<a class="reference internal image-reference" href="../_images/Untitled_44.png"><img alt="../_images/Untitled_44.png" src="../_images/Untitled_44.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.68 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-44" title="Permalink to this image">¶</a></p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">Konturskalierung</span></code> Aus</p>
+<div class="figure align-default" id="objektvergroeserung-mit-kontur">
+<a class="reference internal image-reference" href="../_images/Objektvergroeserung_mit_Kontur.gif"><img alt="../_images/Objektvergroeserung_mit_Kontur.gif" src="../_images/Objektvergroeserung_mit_Kontur.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.69 </span><span class="caption-text">caption</span><a class="headerlink" href="#objektvergroeserung-mit-kontur" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-45">
+<a class="reference internal image-reference" href="../_images/Untitled_45.png"><img alt="../_images/Untitled_45.png" src="../_images/Untitled_45.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.70 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-45" title="Permalink to this image">¶</a></p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">Konturskalierung</span></code> An</p>
+</div>
+<div class="section" id="objektgrosze-in-der-tool-control-bar">
+<h3><span class="section-number">4.2.16. </span>Objektgröße in der <code class="docutils literal notranslate"><span class="pre">Tool-Control-Bar</span></code><a class="headerlink" href="#objektgrosze-in-der-tool-control-bar" title="Permalink to this headline">¶</a></h3>
+<p>Wollen wir die Höhe genau auf einen Wert einstellen, so kann man dies über die <code class="docutils literal notranslate"><span class="pre">Tool-Control-Bar</span></code> machen.</p>
+<div class="figure align-default" id="untitled-46">
+<a class="reference internal image-reference" href="../_images/Untitled_46.png"><img alt="../_images/Untitled_46.png" src="../_images/Untitled_46.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.71 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-46" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Position (x/y) ändern</strong></p>
+<div class="figure align-default" id="untitled-47">
+<a class="reference internal image-reference" href="../_images/Untitled_47.png"><img alt="../_images/Untitled_47.png" src="../_images/Untitled_47.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.72 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-47" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Breite/Höhe ändern + Seitenverhältnis sperren</strong></p>
+<div class="figure align-default" id="untitled-48">
+<a class="reference internal image-reference" href="../_images/Untitled_48.png"><img alt="../_images/Untitled_48.png" src="../_images/Untitled_48.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.73 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-48" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Einheit festlegen</strong></p>
+<div class="figure align-default" id="untitled-49">
+<a class="reference internal image-reference" href="../_images/Untitled_49.png"><img alt="../_images/Untitled_49.png" src="../_images/Untitled_49.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.74 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-49" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="gre-aendern-toolcontbar">
+<a class="reference internal image-reference" href="../_images/Gre_aendern_ToolContBar.gif"><img alt="../_images/Gre_aendern_ToolContBar.gif" src="../_images/Gre_aendern_ToolContBar.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.75 </span><span class="caption-text">caption</span><a class="headerlink" href="#gre-aendern-toolcontbar" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="objektgrosze-mit-dem-transformations-tool">
+<h3><span class="section-number">4.2.17. </span>Objektgröße mit dem <code class="docutils literal notranslate"><span class="pre">Transformations</span></code> Tool<a class="headerlink" href="#objektgrosze-mit-dem-transformations-tool" title="Permalink to this headline">¶</a></h3>
+<p>Wollen wir nun ein Objekt <strong>prozentual skalieren</strong> oder <strong>mehrere Objekte gleichzeitig ändern</strong>, so ist das <code class="docutils literal notranslate"><span class="pre">Transformations</span></code> Tool das Mittel der Wahl</p>
+<div class="figure align-default" id="untitled-50">
+<a class="reference internal image-reference" href="../_images/Untitled_50.png"><img alt="../_images/Untitled_50.png" src="../_images/Untitled_50.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.76 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-50" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>TRANSFORMATION</strong>
+(<code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + M) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Objekt</span></code>→  <code class="docutils literal notranslate"><span class="pre">Transformation..</span></code>)</p>
+<div class="figure align-default" id="untitled-51">
+<a class="reference internal image-reference" href="../_images/Untitled_51.png"><img alt="../_images/Untitled_51.png" src="../_images/Untitled_51.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.77 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-51" title="Permalink to this image">¶</a></p>
+</div>
+<p>Wollen wir z.B. alle Teilchen gleichzeitig skalieren (jedes Teilchen muss dabei eine eigene Gruppe sein) so kann dies der Option ☑️<code class="docutils literal notranslate"><span class="pre">Auf</span> <span class="pre">jedes</span> <span class="pre">Objekt</span> <span class="pre">getrennt</span> <span class="pre">anwenden</span></code> erfolgen</p>
+<div class="figure align-default" id="transformation-individuell3">
+<a class="reference internal image-reference" href="../_images/Transformation_Individuell3.gif"><img alt="../_images/Transformation_Individuell3.gif" src="../_images/Transformation_Individuell3.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.78 </span><span class="caption-text">caption</span><a class="headerlink" href="#transformation-individuell3" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-52">
+<a class="reference internal image-reference" href="../_images/Untitled_52.png"><img alt="../_images/Untitled_52.png" src="../_images/Untitled_52.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.79 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-52" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-53">
+<a class="reference internal image-reference" href="../_images/Untitled_53.png"><img alt="../_images/Untitled_53.png" src="../_images/Untitled_53.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.80 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-53" title="Permalink to this image">¶</a></p>
+</div>
+<p>Zeichnen Sie nun noch <strong>zwei graue Metallkontakte ohne Kontur</strong> auf der Oberseite mit dem <code class="docutils literal notranslate"><span class="pre">Rechteck</span></code> Tool. Verwenden Sie das <code class="docutils literal notranslate"><span class="pre">Pipetten</span></code> Tool um die gleiche Füllfarbe wie im unteren Kontakt zu erhalten.</p>
+<div class="figure align-default" id="untitled-54">
+<a class="reference internal image-reference" href="../_images/Untitled_54.png"><img alt="../_images/Untitled_54.png" src="../_images/Untitled_54.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.81 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-54" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="linien-mit-pfeilen">
+<h3><span class="section-number">4.2.18. </span>Linien mit Pfeilen<a class="headerlink" href="#linien-mit-pfeilen" title="Permalink to this headline">¶</a></h3>
+<p>Zeichnen Sie <strong>einen Pfeil von oberen negativen Teilchen zum Kontakt</strong> mit dem <code class="docutils literal notranslate"><span class="pre">Bezierkurven</span></code> Tool und <code class="docutils literal notranslate"><span class="pre">Füllung</span> <span class="pre">und</span> <span class="pre">Kontur</span></code></p>
+<p><strong>Zur Erinnerung:</strong></p>
+<div class="figure align-default" id="id3">
+<a class="reference internal image-reference" href="../_images/Untitled_22.png"><img alt="../_images/Untitled_22.png" src="../_images/Untitled_22.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.82 </span><span class="caption-text">caption</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>BEZIERKURVEN TOOL</strong>
+(<code class="docutils literal notranslate"><span class="pre">B</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Toolbox</span></code> (links))</p>
+<div class="figure align-default" id="id4">
+<a class="reference internal image-reference" href="../_images/Untitled_18.png"><img alt="../_images/Untitled_18.png" src="../_images/Untitled_18.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.83 </span><span class="caption-text">caption</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>FÜLLUNG UND KONTUR</strong>
+(<code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">F</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Commands-Bar</span></code> (oben))</p>
+<p>Will man eine <strong>vertikale Linie</strong> mit dem <strong><code class="docutils literal notranslate"><span class="pre">Bezierkurven</span></code></strong> Tool erzeugen muss man <code class="docutils literal notranslate"><span class="pre">STR</span></code> <strong>gedrückt</strong> halten</p>
+<div class="figure align-default" id="linie-mit-pfeil">
+<a class="reference internal image-reference" href="../_images/Linie_mit_Pfeil.gif"><img alt="../_images/Linie_mit_Pfeil.gif" src="../_images/Linie_mit_Pfeil.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.84 </span><span class="caption-text">caption</span><a class="headerlink" href="#linie-mit-pfeil" title="Permalink to this image">¶</a></p>
+</div>
+<p>Wenn Sie nun die Länge des Pfeiles ändern wollen ohne die Linienstärke zu ändern, müssen Sie die Option der Konturskalierung (in der <code class="docutils literal notranslate"><span class="pre">Tool-Control-Bar</span></code>) <strong>ausschalten</strong></p>
+<div class="figure align-default" id="untitled-55">
+<a class="reference internal image-reference" href="../_images/Untitled_55.png"><img alt="../_images/Untitled_55.png" src="../_images/Untitled_55.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.85 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-55" title="Permalink to this image">¶</a></p>
+</div>
+<p>Wählen Sie eine entsprechende eine <code class="docutils literal notranslate"><span class="pre">Pfeilgeometrie</span></code> , <code class="docutils literal notranslate"><span class="pre">Liniendicke</span></code> und <code class="docutils literal notranslate"><span class="pre">Farbe</span></code> aus</p>
+<p>In meinem Fall habe ich eine <strong>Liniendicke von 0,3mm</strong> verwendet und das <strong>erste Gelb unten in der Palette</strong> verwendet.</p>
+<div class="figure align-default" id="untitled-56">
+<a class="reference internal image-reference" href="../_images/Untitled_56.png"><img alt="../_images/Untitled_56.png" src="../_images/Untitled_56.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.86 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-56" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="spiegeln">
+<a class="reference internal image-reference" href="../_images/Spiegeln.gif"><img alt="../_images/Spiegeln.gif" src="../_images/Spiegeln.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.87 </span><span class="caption-text">caption</span><a class="headerlink" href="#spiegeln" title="Permalink to this image">¶</a></p>
+</div>
+<p>Den oberen Pfeil können Sie durch <strong>duplizieren</strong> (<code class="docutils literal notranslate"><span class="pre">STR</span></code>+<code class="docutils literal notranslate"><span class="pre">D</span></code>) und <strong>spiegeln</strong> auch für die Unterseite verwenden</p>
+<p>Erstellen Sie nun einen zweiten Pfeil zwischen den mittleren Teilchen</p>
+<p><strong>Ein möglicher Lösungsweg:</strong></p>
+<ol class="simple">
+<li><p>Den ersten Pfeil <strong>duplizieren</strong> (<code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">D</span></code>)</p></li>
+<li><p>Mit <code class="docutils literal notranslate"><span class="pre">Ausrichten</span></code> den duplizierten Pfeil <strong>mittig vom Teilchen ausrichten</strong></p></li>
+</ol>
+<div class="figure align-default" id="id5">
+<a class="reference internal image-reference" href="../_images/Untitled_35.png"><img alt="../_images/Untitled_35.png" src="../_images/Untitled_35.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.88 </span><span class="caption-text">caption</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="simple">
+<li><p>In <code class="docutils literal notranslate"><span class="pre">Füllung</span> <span class="pre">und</span> <span class="pre">Kontur</span></code> die zweite <code class="docutils literal notranslate"><span class="pre">Knotenmarkierung</span></code> einstellen damit Pfeil in beide Richtungen zeigt</p></li>
+</ol>
+<div class="figure align-default" id="untitled-57">
+<a class="reference internal image-reference" href="../_images/Untitled_57.png"><img alt="../_images/Untitled_57.png" src="../_images/Untitled_57.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.89 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-57" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="simple">
+<li><p>Vertikale Position mit <code class="docutils literal notranslate"><span class="pre">Pfeiltasten</span></code> + <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> grob einstellen</p></li>
+<li><p><strong>Länge des Pfeils direkt am Objekt final einstellen</strong></p></li>
+</ol>
+<div class="figure align-default" id="untitled-58">
+<a class="reference internal image-reference" href="../_images/Untitled_58.png"><img alt="../_images/Untitled_58.png" src="../_images/Untitled_58.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.90 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-58" title="Permalink to this image">¶</a></p>
+</div>
+<p>Somit ist unsere Solarzelle erstmal fertig:</p>
+<p>Ich habe die höhe des unteren Kontaktes noch mal erhöht, damit der Pfeil auch im Kontakt zu sehen ist</p>
+<div class="figure align-default" id="untitled-59">
+<a class="reference internal image-reference" href="../_images/Untitled_59.png"><img alt="../_images/Untitled_59.png" src="../_images/Untitled_59.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.91 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-59" title="Permalink to this image">¶</a></p>
+</div>
+<p>Blockieren Sie nun die <code class="docutils literal notranslate"><span class="pre">Ebene</span></code> “<strong>Solarzelle</strong>” (da wir damit erstmal fertig sind) und erstellen Sie eine neue <code class="docutils literal notranslate"><span class="pre">Ebene</span></code> “<strong>Sonne</strong>” über der <strong>Ebene</strong> “<strong>Solarzelle”.</strong></p>
+</div>
+</div>
+<div class="section" id="erstellung-der-sonne">
+<h2><span class="section-number">4.3. </span>Erstellung der Sonne<a class="headerlink" href="#erstellung-der-sonne" title="Permalink to this headline">¶</a></h2>
+<p>Wir wollen nun die Sonne zeichnen und lernen dabei die <code class="docutils literal notranslate"><span class="pre">Objekt-Hierarchie</span></code> und nachfolgend die <code class="docutils literal notranslate"><span class="pre">boolschen</span> <span class="pre">Operationen</span></code> kennen.</p>
+<p>So soll die Sonne final aussehen:
+(erstmal nur in Schwarz)</p>
+<div class="figure align-default" id="untitled-60">
+<a class="reference internal image-reference" href="../_images/Untitled_60.png"><img alt="../_images/Untitled_60.png" src="../_images/Untitled_60.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.92 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-60" title="Permalink to this image">¶</a></p>
+</div>
+<p>Um dies zu erreichen, erstellen wir Linien mit dem <code class="docutils literal notranslate"><span class="pre">Bezierkurven</span></code> Tool  und Kreise mit/ohne Kontur mit dem <code class="docutils literal notranslate"><span class="pre">Kreis</span></code> Tool und legen die verschiedenen Objekte so übereinander, dass bestimmte Bereiche verdeckt sind und somit die Sonne entsteht.</p>
+<p>Da der Trick mit weißen Konturen und Füllungen arbeitet wurde zur Erstellung ein grauer Hintergrund (ein großes graues Rechteck) verwendet um die Technik besser sichtbar zu machen</p>
+<div class="figure align-default" id="sonne1">
+<a class="reference internal image-reference" href="../_images/Sonne1.png"><img alt="../_images/Sonne1.png" src="../_images/Sonne1.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.93 </span><span class="caption-text">caption</span><a class="headerlink" href="#sonne1" title="Permalink to this image">¶</a></p>
+</div>
+<p>Links die Übereinanderlagerung der Objekte, rechts das gleiche mit zusätzlich weißen Hintergrund</p>
+<p><strong>Wir erstellen also:</strong></p>
+<ul class="simple">
+<li><p>Linien (L1) für die Sonnenstrahlen</p></li>
+<li><p>zwei Ringe (R1 und R2)  die die Sonnenstrahlen innen und außen abgrenzen</p></li>
+<li><p>ein Kreis (K1) der die Sonne darstellt</p></li>
+</ul>
+<div class="figure align-default" id="sonne2">
+<a class="reference internal image-reference" href="../_images/Sonne2.png"><img alt="../_images/Sonne2.png" src="../_images/Sonne2.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.94 </span><span class="caption-text">caption</span><a class="headerlink" href="#sonne2" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Tipps zum Erstellen der Sonnenstrahlen</strong></p>
+<ol class="simple">
+<li><p>Durch Doppelklick auf das Objekt können diese gedreht werden</p></li>
+</ol>
+<div class="figure align-default" id="untitled-61">
+<a class="reference internal image-reference" href="../_images/Untitled_61.png"><img alt="../_images/Untitled_61.png" src="../_images/Untitled_61.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.95 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-61" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="simple">
+<li><p>Wird das Objekt an dem äußeren Rand gedreht kann durch gleichzeitiges drücken von <code class="docutils literal notranslate"><span class="pre">STR</span></code> in definierten Winkeln gedreht werden</p></li>
+</ol>
+<div class="figure align-default" id="untitled-62">
+<a class="reference internal image-reference" href="../_images/Untitled_62.png"><img alt="../_images/Untitled_62.png" src="../_images/Untitled_62.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.96 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-62" title="Permalink to this image">¶</a></p>
+</div>
+<div class="section" id="objekthierarchie">
+<h3><span class="section-number">4.3.1. </span>Objekthierarchie<a class="headerlink" href="#objekthierarchie" title="Permalink to this headline">¶</a></h3>
+<p>Mit Objekthierarchie ist gemeint, in welcher Reihenfolge die Objekte übereinander liegen und sich dadurch teilweise überdecken.</p>
+<p>In der <code class="docutils literal notranslate"><span class="pre">Tools-Control-Bar</span></code> finden sich folgende Buttons zur Veränderung der Objekthierarchie.</p>
+<div class="figure align-default" id="untitled-63">
+<a class="reference internal image-reference" href="../_images/Untitled_63.png"><img alt="../_images/Untitled_63.png" src="../_images/Untitled_63.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.97 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-63" title="Permalink to this image">¶</a></p>
+</div>
+<p>Ebenfalls zu finden unter  <code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">Bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Objekt</span></code></p>
+<div class="figure align-default" id="untitled-64">
+<a class="reference internal image-reference" href="../_images/Untitled_64.png"><img alt="../_images/Untitled_64.png" src="../_images/Untitled_64.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.98 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-64" title="Permalink to this image">¶</a></p>
+</div>
+<p>Da ich diese Funktion sehr oft benutze, habe ich für <code class="docutils literal notranslate"><span class="pre">Anheben</span></code> und <code class="docutils literal notranslate"><span class="pre">Absenken</span></code> einen ShortCut auf meine Maus gelegt, das beschleunigt den Workflow enorm.</p>
+<p>Hier wird gezeigt wie durch das Anheben und Absenken des Objektes sich die Sichtbarkeit verändert</p>
+<div class="figure align-default" id="id6">
+<a class="reference internal image-reference" href="../_images/Objekthierarchie.gif"><img alt="../_images/Objekthierarchie.gif" src="../_images/Objekthierarchie.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.99 </span><span class="caption-text">caption</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+<p>Wollen Sie ein <strong>Objekt durch ein darauf liegendes hindurch selektieren,</strong> so halten Sie <code class="docutils literal notranslate"><span class="pre">ALT</span></code> gedrückt während der Auswahl</p>
+<div class="figure align-default" id="objekt-selektion-drunterliegend">
+<a class="reference internal image-reference" href="../_images/Objekt_Selektion_Drunterliegend.gif"><img alt="../_images/Objekt_Selektion_Drunterliegend.gif" src="../_images/Objekt_Selektion_Drunterliegend.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.100 </span><span class="caption-text">caption</span><a class="headerlink" href="#objekt-selektion-drunterliegend" title="Permalink to this image">¶</a></p>
+</div>
+<p>Erstellen Sie nun mit Hilfe der gezeigten Methoden die Sonne und färben Sie diese am Ende gelb.</p>
+</div>
+<div class="section" id="linie-bearbeiten-mit-edit-path-by-nodes-tool">
+<h3><span class="section-number">4.3.2. </span>Linie bearbeiten mit <code class="docutils literal notranslate"><span class="pre">Edit</span> <span class="pre">Path</span> <span class="pre">by</span> <span class="pre">Nodes</span></code> Tool<a class="headerlink" href="#linie-bearbeiten-mit-edit-path-by-nodes-tool" title="Permalink to this headline">¶</a></h3>
+<p>Erstellen Sie nun mit dem <code class="docutils literal notranslate"><span class="pre">Bezierkurven</span></code> Tool ein Pfeil von der Sonne bis zur Grenzschicht</p>
+<p>Wenn Sie nur den Start und Endpunkt der Linie bearbeiten wollen, empfiehlt es sich das <code class="docutils literal notranslate"><span class="pre">Edit</span> <span class="pre">Path</span> <span class="pre">by</span> <span class="pre">Nodes</span></code> Tool zu verwenden.</p>
+<div class="figure align-default" id="untitled-65">
+<a class="reference internal image-reference" href="../_images/Untitled_65.png"><img alt="../_images/Untitled_65.png" src="../_images/Untitled_65.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.101 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-65" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>EDIT PATH BY NODES TOOL</strong>
+(<code class="docutils literal notranslate"><span class="pre">N</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Toolbox</span></code> (links))</p>
+<p>Das Tool erlaubt auf die <strong>Knotenpunkte des Objektes</strong> zuzugreifen und diese zu verschieben.</p>
+<div class="figure align-default" id="editpathbynodes">
+<a class="reference internal image-reference" href="../_images/EditPathByNodes.gif"><img alt="../_images/EditPathByNodes.gif" src="../_images/EditPathByNodes.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.102 </span><span class="caption-text">caption</span><a class="headerlink" href="#editpathbynodes" title="Permalink to this image">¶</a></p>
+</div>
+<p>Blockieren Sie nun die <code class="docutils literal notranslate"><span class="pre">Ebene</span></code> “<strong>Sonne</strong>” und erzeugen Sie eine neue <code class="docutils literal notranslate"><span class="pre">Ebene</span></code> “<strong>Beschriftung</strong>”</p>
+</div>
+</div>
+<div class="section" id="beschriftung">
+<h2><span class="section-number">4.4. </span>Beschriftung<a class="headerlink" href="#beschriftung" title="Permalink to this headline">¶</a></h2>
+<p>Zur Beschriftung verwenden wir Linien mit dem <code class="docutils literal notranslate"><span class="pre">Bezierkurven</span></code> Tool und Text mit dem <code class="docutils literal notranslate"><span class="pre">Text</span></code> Tool</p>
+<div class="figure align-default" id="untitled-66">
+<a class="reference internal image-reference" href="../_images/Untitled_66.png"><img alt="../_images/Untitled_66.png" src="../_images/Untitled_66.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.103 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-66" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>TEXT TOOL</strong>
+(T) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Toolbox</span></code> (links))</p>
+<p>Zum Text Tool gibt es in der <code class="docutils literal notranslate"><span class="pre">Tool-Control-Bar</span></code> die allseits bekannten Einstellungen zur Textgestaltung</p>
+<div class="figure align-default" id="untitled-67">
+<a class="reference internal image-reference" href="../_images/Untitled_67.png"><img alt="../_images/Untitled_67.png" src="../_images/Untitled_67.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.104 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-67" title="Permalink to this image">¶</a></p>
+</div>
+<p>Bei Text bietet sich das Ausrichten besonders gut an</p>
+<div class="figure align-default" id="id7">
+<a class="reference internal image-reference" href="../_images/Untitled_28.png"><img alt="../_images/Untitled_28.png" src="../_images/Untitled_28.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.105 </span><span class="caption-text">caption</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>OBJEKTE AUSRICHTEN</strong>
+(<code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">A</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Icon</span></code> in der <code class="docutils literal notranslate"><span class="pre">Commands-Bar</span></code> (oben))</p>
+<p><strong>Ausrichtung des Textes in der richtigen Höhe des Objektes</strong> was beschriftet werden soll</p>
+<div class="figure align-default" id="text-an-objekt-ausrichten">
+<a class="reference internal image-reference" href="../_images/Text_an_Objekt_Ausrichten.gif"><img alt="../_images/Text_an_Objekt_Ausrichten.gif" src="../_images/Text_an_Objekt_Ausrichten.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.106 </span><span class="caption-text">caption</span><a class="headerlink" href="#text-an-objekt-ausrichten" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id8">
+<a class="reference internal image-reference" href="../_images/Untitled_34.png"><img alt="../_images/Untitled_34.png" src="../_images/Untitled_34.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.107 </span><span class="caption-text">caption</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Ausrichtung aller Beschriftungen zueinander</strong> (linksbündig)</p>
+<div class="figure align-default" id="text-an-text-ausrichten">
+<a class="reference internal image-reference" href="../_images/Text_an_Text_Ausrichten.gif"><img alt="../_images/Text_an_Text_Ausrichten.gif" src="../_images/Text_an_Text_Ausrichten.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.108 </span><span class="caption-text">caption</span><a class="headerlink" href="#text-an-text-ausrichten" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="untitled-68">
+<a class="reference internal image-reference" href="../_images/Untitled_68.png"><img alt="../_images/Untitled_68.png" src="../_images/Untitled_68.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.109 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-68" title="Permalink to this image">¶</a></p>
+</div>
+<p>Erstellen Sie die restliche Beschriftung mit den bisher gelernten Methoden</p>
+</div>
+<div class="section" id="vorbereitungen-zum-export">
+<h2><span class="section-number">4.5. </span>Vorbereitungen zum Export<a class="headerlink" href="#vorbereitungen-zum-export" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="grosze-aller-objekte-zusammen-andern">
+<h3><span class="section-number">4.5.1. </span>Größe aller Objekte zusammen ändern<a class="headerlink" href="#grosze-aller-objekte-zusammen-andern" title="Permalink to this headline">¶</a></h3>
+<p>Falls Ihre Grafik doch größer geworden ist, als Sie wollten, so können Sie dies zum Schluss noch mal anpassen.</p>
+<p><strong>Hierbei gibt es jedoch einige Punkte zu beachten:</strong></p>
+<ol>
+<li><p>Bei der Skalierung alle Objekte <strong>selektieren</strong>, aber <strong>nie gruppieren</strong>!</p>
+<p>Durch die Gruppierung über alle Ebenen werden alle Objekte zur aktivieren Ebene gezogen, die anderen Ebenen haben dann also keinen Inhalt mehr.</p>
+</li>
+<li><p>Wenn Sie wollen, dass sich die <strong>Konturbreite</strong> <strong>nicht mit skaliert</strong> wird, müssen Sie die <strong>Option</strong> der <strong>Konturskalierung</strong> (in der <code class="docutils literal notranslate"><span class="pre">Tool-Control-Bar</span></code>) <strong>ausschalten</strong></p></li>
+</ol>
+<div class="figure align-default" id="id9">
+<a class="reference internal image-reference" href="../_images/Untitled_55.png"><img alt="../_images/Untitled_55.png" src="../_images/Untitled_55.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.110 </span><span class="caption-text">caption</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="seitengrosze-an-zeichnung-anpassen">
+<h3><span class="section-number">4.5.2. </span>Seitengröße an Zeichnung anpassen<a class="headerlink" href="#seitengrosze-an-zeichnung-anpassen" title="Permalink to this headline">¶</a></h3>
+<p>Markieren Sie alle Objekte die zum Bild gehören sollen und öffnen anschließend die <code class="docutils literal notranslate"><span class="pre">Dokumenteneinstellung</span></code> mit der Option <code class="docutils literal notranslate"><span class="pre">Ändern</span> <span class="pre">der</span> <span class="pre">Seitegröße</span> <span class="pre">auf</span> <span class="pre">Inhalt</span> <span class="pre">...</span></code></p>
+<p><strong>DOKUMENTENEINSTELLUNGEN</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">D</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">Dokumenteneinstellungen...</span></code>)</p>
+<p><strong>Reiter</strong>: <strong><code class="docutils literal notranslate"><span class="pre">Seite</span></code></strong></p>
+<div class="figure align-default" id="untitled-69">
+<a class="reference internal image-reference" href="../_images/Untitled_69.png"><img alt="../_images/Untitled_69.png" src="../_images/Untitled_69.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.111 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-69" title="Permalink to this image">¶</a></p>
+</div>
+<p>Hier können Sie noch wenn gewünscht einen Rand eingeben und dann durch den Button <code class="docutils literal notranslate"><span class="pre">Seitengröße</span> <span class="pre">auf</span> <span class="pre">Zeichnungs-/Auswahlgröße</span> <span class="pre">anpassen</span></code> die Seitengröße neu einstellen. So würde dies dann z.B. mit dem Rändern von 5mm aussehen:</p>
+<div class="figure align-default" id="groesse-an-inhalt-anpassen">
+<a class="reference internal image-reference" href="../_images/Groesse_an_Inhalt_Anpassen.gif"><img alt="../_images/Groesse_an_Inhalt_Anpassen.gif" src="../_images/Groesse_an_Inhalt_Anpassen.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.112 </span><span class="caption-text">caption</span><a class="headerlink" href="#groesse-an-inhalt-anpassen" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="hintergrundfarbe-fur-export-einstellen">
+<h3><span class="section-number">4.5.3. </span>Hintergrundfarbe (für Export) einstellen<a class="headerlink" href="#hintergrundfarbe-fur-export-einstellen" title="Permalink to this headline">¶</a></h3>
+<p>Um den Einfluss der Hintergrundfarbe und des Randes beim Export zu verdeutlichen, habe ich die Grafik in drei verschiedenen Varianten exportiert und auf einem Hintergrund mit Farbverlauf eingefügt.</p>
+<div class="figure align-default" id="untitled-70">
+<a class="reference internal image-reference" href="../_images/Untitled_70.png"><img alt="../_images/Untitled_70.png" src="../_images/Untitled_70.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.113 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-70" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>png</strong> transparent</p>
+<p><strong>MIT TRANSPARENTEM HINTERGRUND</strong></p>
+<ul class="simple">
+<li><p>✅ kann z.B. in Powerpoint Präsentationen (bei Folien die nicht weiß sind) besser aussehen</p></li>
+<li><p>❌ Unser Trick bei der Sonne funktioniert so nicht mehr (kann aber auch anders gelöst werden)</p></li>
+</ul>
+<div class="figure align-default" id="untitled-71">
+<a class="reference internal image-reference" href="../_images/Untitled_71.png"><img alt="../_images/Untitled_71.png" src="../_images/Untitled_71.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.114 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-71" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>png</strong> weißer Hintergrund <strong>ohne</strong> Rand</p>
+<p><strong>MIT WEISSEN HINTERGRUND OHNE RAND</strong></p>
+<ul class="simple">
+<li><p>Genau das Gegenteil zum vorherigen Beispiel. Es sieht bei nicht-weißem Hintergrund oft nicht schön aus, dafür fällt der Trick bei der Sonne nicht mehr auf</p></li>
+<li><p>Zusätzlich fällt es auf, dass kein Rand verwendet wurde, wodurch der Text im Außenbereich nicht so schön lesbar ist</p></li>
+</ul>
+<div class="figure align-default" id="untitled-72">
+<a class="reference internal image-reference" href="../_images/Untitled_72.png"><img alt="../_images/Untitled_72.png" src="../_images/Untitled_72.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.115 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-72" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>png</strong> weißer Hintergrund <strong>mit</strong> Rand</p>
+<p><strong>MIT WEISSEN HINTERGRUND MIT RAND</strong></p>
+<ul class="simple">
+<li><p>durch den zusätzlichen Rand wirkt das Bild harmonischer und der Text ist nun auch besser lesbar</p></li>
+</ul>
+<p><strong>Grundsätzlich gibt es zwei Varianten einen Hintergrund für den Export einzustellen:</strong></p>
+<ol class="simple">
+<li><p><strong>Einen Hintergrund als Objekt erstellen</strong></p>
+<ul class="simple">
+<li><p>Ebene “Hintergrund” erstellen und diese ganz unten einfügen.</p></li>
+<li><p>Rechteck ziehen mit dem <code class="docutils literal notranslate"><span class="pre">Rechteck</span> <span class="pre">Tool</span></code> und Farbe vergeben</p></li>
+<li><p>ggf. kann snapping für die Seitenränder aktiviert werden damit genau die Größe des Seitenrandes verwendet werden kann</p></li>
+</ul>
+</li>
+</ol>
+<div class="figure align-default" id="untitled-73">
+<a class="reference internal image-reference" href="../_images/Untitled_73.png"><img alt="../_images/Untitled_73.png" src="../_images/Untitled_73.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.116 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-73" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="simple">
+<li><p><strong>Hintergrundfarbe</strong> in <code class="docutils literal notranslate"><span class="pre">Seiteneinstellungen</span></code> (<code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">Str</span></code> + <code class="docutils literal notranslate"><span class="pre">D</span></code>)</p></li>
+</ol>
+<div class="figure align-default" id="untitled-74">
+<a class="reference internal image-reference" href="../_images/Untitled_74.png"><img alt="../_images/Untitled_74.png" src="../_images/Untitled_74.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.117 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-74" title="Permalink to this image">¶</a></p>
+</div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>- Wenn Sie das `Icon für den Hintergrund` (siehe Bild oben) anklicken können sie mit dem Schieber A den **Alpha-Wert** (also die Transparenz ändern)
+    - A=100 (ohne Transparenz)
+    - A=0 (voll Transparenz)
+- Standardwert ist `#ffffff00`
+</pre></div>
+</div>
+</div>
+<div class="section" id="pixelgrafik-export-als-png">
+<h3><span class="section-number">4.5.4. </span>[<code class="docutils literal notranslate"><span class="pre">PixelGrafik</span></code>] Export als <code class="docutils literal notranslate"><span class="pre">png</span></code><a class="headerlink" href="#pixelgrafik-export-als-png" title="Permalink to this headline">¶</a></h3>
+<p><strong>PNG-BILD EXPORTIEREN</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">E</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">PNG-Bild</span> <span class="pre">exportieren...</span></code>)</p>
+<div class="figure align-default" id="untitled-75">
+<a class="reference internal image-reference" href="../_images/Untitled_75.png"><img alt="../_images/Untitled_75.png" src="../_images/Untitled_75.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4.118 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-75" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Hierbei wichtige Einstellungen:</strong></p>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Exportbereich</span></code></strong>: <code class="docutils literal notranslate"><span class="pre">Seite</span></code> / <code class="docutils literal notranslate"><span class="pre">Zeichnung</span></code> / <code class="docutils literal notranslate"><span class="pre">Auswahl</span></code> wird exportiert</p>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Bildgröße</span></code></strong>: Vorgabe von dpi (Seitengröße wird angepasst) oder Vorgabe von Breite bzw. Höhe (dpi wird angepasst)</p>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Dateiname</span></code></strong>: Pfad mit Dateinamen angeben</p>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Exportieren</span></code>: Zum Speichern <code class="docutils literal notranslate"><span class="pre">Exportieren</span></code> drücken!</strong></p>
+</div>
+<div class="section" id="vektorgrafik-speichern-als-svg">
+<h3><span class="section-number">4.5.5. </span>[<code class="docutils literal notranslate"><span class="pre">VektorGrafik</span></code>] Speichern als <code class="docutils literal notranslate"><span class="pre">svg</span></code><a class="headerlink" href="#vektorgrafik-speichern-als-svg" title="Permalink to this headline">¶</a></h3>
+<p><strong>DATEI SPEICHERN UNTER + Dateityp: Inkscape-SVG (*.svg)</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code>+ <code class="docutils literal notranslate"><span class="pre">S</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">Speichern</span> <span class="pre">Unter...</span></code>)</p>
+<p>Sie sollten die Datei immer als <strong>Inkscape-SVG (*.svg)</strong> speichern. Dies ist das native Inkscape Dateiformat in dem alle Eigenschaften (z.B. auch Ebenen) gespeichert werden können. Weiterhin können <code class="docutils literal notranslate"><span class="pre">.svg</span></code> manchmal auch Programmen direkt verwendet werden (z.B. in <span class="math notranslate nohighlight">\(\LaTeX\)</span>).</p>
+</div>
+<div class="section" id="vektorgrafik-speichern-als-pdf">
+<h3><span class="section-number">4.5.6. </span>[<code class="docutils literal notranslate"><span class="pre">VektorGrafik</span></code>] Speichern als <code class="docutils literal notranslate"><span class="pre">pdf</span></code><a class="headerlink" href="#vektorgrafik-speichern-als-pdf" title="Permalink to this headline">¶</a></h3>
+<p>Manchmal ist es auch sinnvoll die Datei als pdf zu speichern, dafür dann den Dateityp <strong>Portable Document Format (*.pdf)</strong> verwenden.</p>
+<p><strong>DATEI SPEICHERN UNTER + Dateityp: Portable Document Format (*.pdf)</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code>+ <code class="docutils literal notranslate"><span class="pre">S</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">Speichern</span> <span class="pre">Unter...</span></code>)</p>
+</div>
+</div>
+</div>
+<div class="section" id="ubungsbeispiele">
+<h1><span class="section-number">5. </span>Übungsbeispiele<a class="headerlink" href="#ubungsbeispiele" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="alltag">
+<h2><span class="section-number">5.1. </span>Alltag<a class="headerlink" href="#alltag" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default" id="untitled-76">
+<a class="reference internal image-reference" href="../_images/Untitled_76.png"><img alt="../_images/Untitled_76.png" src="../_images/Untitled_76.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 5.1 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-76" title="Permalink to this image">¶</a></p>
+</div>
+<p>Quelle: <a class="reference external" href="https://pixabay.com/de/illustrations/fahrrad-rad-bike-mountainbike-757914/">https://pixabay.com/de/illustrations/fahrrad-rad-bike-mountainbike-757914/</a></p>
+<div class="figure align-default" id="untitled-77">
+<a class="reference internal image-reference" href="../_images/Untitled_77.png"><img alt="../_images/Untitled_77.png" src="../_images/Untitled_77.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 5.2 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-77" title="Permalink to this image">¶</a></p>
+</div>
+<p>Quelle: <a class="reference external" href="https://pixabay.com/de/vectors/schreibtisch-notizen-notizbuch-2906792/">https://pixabay.com/de/vectors/schreibtisch-notizen-notizbuch-2906792/</a></p>
+<div class="figure align-default" id="untitled-78">
+<a class="reference internal image-reference" href="../_images/Untitled_78.png"><img alt="../_images/Untitled_78.png" src="../_images/Untitled_78.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 5.3 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-78" title="Permalink to this image">¶</a></p>
+</div>
+<p>Quelle: <a class="reference external" href="https://pixabay.com/de/vectors/android-handy-iphone-mobil-telefon-2027560/">https://pixabay.com/de/vectors/android-handy-iphone-mobil-telefon-2027560/</a></p>
+</div>
+<div class="section" id="technisch">
+<h2><span class="section-number">5.2. </span>technisch<a class="headerlink" href="#technisch" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default" id="untitled-79">
+<a class="reference internal image-reference" href="../_images/Untitled_79.png"><img alt="../_images/Untitled_79.png" src="../_images/Untitled_79.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 5.4 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-79" title="Permalink to this image">¶</a></p>
+</div>
+<p>Quelle: <a class="reference external" href="https://www.researchgate.net/publication/7323590_Local_mechanical_properties_of_the_head_articulation_cuticle_in_the_beetle_Pachnoda_marginata_Coleoptera_Scarabaeidae">https://www.researchgate.net/publication/7323590_Local_mechanical_properties_of_the_head_articulation_cuticle_in_the_beetle_Pachnoda_marginata_Coleoptera_Scarabaeidae</a></p>
+<div class="figure align-default" id="untitled-80">
+<a class="reference internal image-reference" href="../_images/Untitled_80.png"><img alt="../_images/Untitled_80.png" src="../_images/Untitled_80.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 5.5 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-80" title="Permalink to this image">¶</a></p>
+</div>
+<p>Quelle: <a class="reference external" href="https://www.researchgate.net/publication/7323590_Local_mechanical_properties_of_the_head_articulation_cuticle_in_the_beetle_Pachnoda_marginata_Coleoptera_Scarabaeidae">https://www.researchgate.net/publication/7323590_Local_mechanical_properties_of_the_head_articulation_cuticle_in_the_beetle_Pachnoda_marginata_Coleoptera_Scarabaeidae</a></p>
+<div class="figure align-default" id="untitled-81">
+<a class="reference internal image-reference" href="../_images/Untitled_81.png"><img alt="../_images/Untitled_81.png" src="../_images/Untitled_81.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 5.6 </span><span class="caption-text">caption</span><a class="headerlink" href="#untitled-81" title="Permalink to this image">¶</a></p>
+</div>
+<p>Diese Skizze in schön :)</p>
+</div>
+</div>
+<div class="section" id="informationen-zur-theorie">
+<h1><span class="section-number">6. </span>Informationen zur Theorie<a class="headerlink" href="#informationen-zur-theorie" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="color">
+<h2><span class="section-number">6.1. </span>Color<a class="headerlink" href="#color" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://youtu.be/_2LLXnUdUIc">https://youtu.be/_2LLXnUdUIc</a></p>
+</div>
+<div class="section" id="typography">
+<h2><span class="section-number">6.2. </span>Typography<a class="headerlink" href="#typography" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://youtu.be/sByzHoiYFX0">https://youtu.be/sByzHoiYFX0</a></p>
+<p><a class="reference external" href="https://youtu.be/QrNi9FmdlxY">https://youtu.be/QrNi9FmdlxY</a></p>
+</div>
+<div class="section" id="layout-and-composition">
+<h2><span class="section-number">6.3. </span>Layout and Composition<a class="headerlink" href="#layout-and-composition" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://youtu.be/a5KYlHNKQB8">https://youtu.be/a5KYlHNKQB8</a></p>
+</div>
+</div>
+<div class="section" id="tutorials">
+<h1><span class="section-number">7. </span>Tutorials<a class="headerlink" href="#tutorials" title="Permalink to this headline">¶</a></h1>
+<p><strong>offizielle Inkscape Tutorials</strong>:
+<a class="reference external" href="https://inkscape.org/de/doc/tutorials/shapes/tutorial-shapes.html">https://inkscape.org/de/doc/tutorials/shapes/tutorial-shapes.html</a></p>
+<p><strong>YouTube</strong>:</p>
+<p><a class="reference external" href="https://youtu.be/qq7HsMvEVmU">https://youtu.be/qq7HsMvEVmU</a></p>
+<p><a class="reference external" href="https://youtu.be/XFFZXgBtNlg">https://youtu.be/XFFZXgBtNlg</a></p>
+<p><a class="reference external" href="https://youtu.be/ifLfVsI9UBE">https://youtu.be/ifLfVsI9UBE</a></p>
+<p><a class="reference external" href="https://youtu.be/KuETd1uIF8U">https://youtu.be/KuETd1uIF8U</a></p>
+<p><a class="reference external" href="https://youtu.be/eaWbzMs7-n4">https://youtu.be/eaWbzMs7-n4</a></p>
+<p><a class="reference external" href="https://youtu.be/s-kPg4vYKfk">https://youtu.be/s-kPg4vYKfk</a></p>
+<p><a class="reference external" href="https://youtu.be/WM2enc0pgls">https://youtu.be/WM2enc0pgls</a></p>
+</div>
+<div class="section" id="ressourcen">
+<h1><span class="section-number">8. </span>Ressourcen<a class="headerlink" href="#ressourcen" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="inspiration">
+<h2><span class="section-number">8.1. </span>Inspiration<a class="headerlink" href="#inspiration" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.logomoose.com/">Logo inspiration</a></p>
+<p>Für Logos</p>
+</div>
+<div class="section" id="stockfotos">
+<h2><span class="section-number">8.2. </span>Stockfotos<a class="headerlink" href="#stockfotos" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://pixabay.com/de/"></a></p>
+<p><a class="reference external" href="https://unsplash.com/">Beautiful Free Images &amp; Pictures | Unsplash</a></p>
+</div>
+<div class="section" id="schriftarten">
+<h2><span class="section-number">8.3. </span>Schriftarten<a class="headerlink" href="#schriftarten" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.fontfabric.com/free-fonts/">DOWNLOAD: Free Fonts - at Fontfabric™</a></p>
+</div>
+<div class="section" id="color-themes">
+<h2><span class="section-number">8.4. </span>Color Themes<a class="headerlink" href="#color-themes" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://coolors.co/">Coolors - The super fast color schemes generator!</a></p>
+</div>
+<div class="section" id="icons">
+<h2><span class="section-number">8.5. </span>Icons<a class="headerlink" href="#icons" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://endlessicons.com/">Endless Icons</a></p>
+</div>
+<div class="section" id="imagecompressor">
+<h2><span class="section-number">8.6. </span>Imagecompressor<a class="headerlink" href="#imagecompressor" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://compressor.io/">Compressor.io - optimize and compress JPEG photos and PNG images</a></p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Inkscape"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="../Readme.html" title="previous page">Startseite</a>
+    <a class='right-next' id="next-link" href="../Inkscape2/Inkscape_%28Advanced%29.html" title="next page"><span class="section-number">9. </span>Inkscape (Advanced)</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Felix Kaule<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

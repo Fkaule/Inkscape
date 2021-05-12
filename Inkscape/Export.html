@@ -1,0 +1,573 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vorbereitungen zum Export &#8212; Inkscape</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Inkscape</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Readme.html">
+   Startseite
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="Einleitung.html">
+   1. Grundlagen
+  </a>
+  <ul class="simple collapse-ul">
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html">
+   2. Unterschied
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     Objekt
+    </span>
+   </code>
+   /
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     Pfad
+    </span>
+   </code>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#selektionsmoglichkeiten">
+   3. Selektionsmöglichkeiten
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#pfadeffekte-bemaszung">
+   4. Pfadeffekte (Bemaßung)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#maszeinheiten-auf-dem-monitor-einstellen">
+   5. Maßeinheiten auf dem Monitor einstellen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#bezier-pen">
+   6. Bezier-Pen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#textanpassungen">
+   7. Textanpassungen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#pixelgrafiken-automatisch-in-vektor-umwandeln">
+   8. Pixelgrafiken automatisch in Vektor umwandeln
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#ausschneidemaske-pixelbilder-croppen">
+   9. Ausschneidemaske (Pixelbilder croppen)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#musterfullung">
+   10. Musterfüllung
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#gradient">
+   11. Gradient
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#text-mit-hintergrund">
+   12. Text mit Hintergrund
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#gitter-3d">
+   13. Gitter 3D
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#objekt-in-isometrische-ansicht-verformen">
+   14. Objekt in isometrische Ansicht verformen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#kantenverrundung">
+   15. Kantenverrundung
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#templates">
+   16. Templates
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#latex-in-inkscape">
+   17.
+   <span class="math notranslate nohighlight">
+    \(\LaTeX\)
+   </span>
+   in Inkscape
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#hilfslinien">
+   18. Hilfslinien
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#rontgen-sicht">
+   19. Röntgen Sicht
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#ubertragen-von-stil-farbe-linie-dicke-auf-andere">
+   20. Übertragen von Stil (Farbe/Linie/Dicke) auf andere
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#clone-erstellen">
+   21. Clone erstellen
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#batch-export">
+   22. Batch Export
+  </a>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../Inkscape2/Inkscape_%28Advanced%29.html#weiterfuhrende-beispiele">
+   23. Weiterführende Beispiele
+  </a>
+  <ul class="simple collapse-ul">
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Links.html">
+   24. Weiterführendes Material (Links)
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/Inkscape/Export.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/Fkaule/Python_for_Engineers/tree/main"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/Fkaule/Python_for_Engineers/tree/main/issues/new?title=Issue%20on%20page%20%2FInkscape/Export.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#grosze-aller-objekte-zusammen-andern">
+   Größe aller Objekte zusammen ändern
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#seitengrosze-an-zeichnung-anpassen">
+   Seitengröße an Zeichnung anpassen
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hintergrundfarbe-fur-export-einstellen">
+   Hintergrundfarbe (für Export) einstellen
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pixelgrafik-export-als-png">
+   [
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     PixelGrafik
+    </span>
+   </code>
+   ] Export als
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     png
+    </span>
+   </code>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vektorgrafik-speichern-als-svg">
+   [
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     VektorGrafik
+    </span>
+   </code>
+   ] Speichern als
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     svg
+    </span>
+   </code>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vektorgrafik-speichern-als-pdf">
+   [
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     VektorGrafik
+    </span>
+   </code>
+   ] Speichern als
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     pdf
+    </span>
+   </code>
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="vorbereitungen-zum-export">
+<h1>Vorbereitungen zum Export<a class="headerlink" href="#vorbereitungen-zum-export" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="grosze-aller-objekte-zusammen-andern">
+<h2>Größe aller Objekte zusammen ändern<a class="headerlink" href="#grosze-aller-objekte-zusammen-andern" title="Permalink to this headline">¶</a></h2>
+<p>Falls Ihre Grafik doch größer geworden ist, als Sie wollten, so können Sie dies zum Schluss noch mal anpassen.</p>
+<p><strong>Hierbei gibt es jedoch einige Punkte zu beachten:</strong></p>
+<ol>
+<li><p>Bei der Skalierung alle Objekte <strong>selektieren</strong>, aber <strong>nie gruppieren</strong>!</p>
+<p>Durch die Gruppierung über alle Ebenen werden alle Objekte zur aktivieren Ebene gezogen, die anderen Ebenen haben dann also keinen Inhalt mehr.</p>
+</li>
+<li><p>Wenn Sie wollen, dass sich die <strong>Konturbreite</strong> <strong>nicht mit skaliert</strong> wird, müssen Sie die <strong>Option</strong> der <strong>Konturskalierung</strong> (in der <code class="docutils literal notranslate"><span class="pre">Tool-Control-Bar</span></code>) <strong>ausschalten</strong></p></li>
+</ol>
+<div class="figure align-default" id="untitled-55">
+<a class="reference internal image-reference" href="../_images/Untitled_55.png"><img alt="../_images/Untitled_55.png" src="../_images/Untitled_55.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">caption</span><a class="headerlink" href="#untitled-55" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="seitengrosze-an-zeichnung-anpassen">
+<h2>Seitengröße an Zeichnung anpassen<a class="headerlink" href="#seitengrosze-an-zeichnung-anpassen" title="Permalink to this headline">¶</a></h2>
+<p>Markieren Sie alle Objekte die zum Bild gehören sollen und öffnen anschließend die <code class="docutils literal notranslate"><span class="pre">Dokumenteneinstellung</span></code> mit der Option <code class="docutils literal notranslate"><span class="pre">Ändern</span> <span class="pre">der</span> <span class="pre">Seitegröße</span> <span class="pre">auf</span> <span class="pre">Inhalt</span> <span class="pre">...</span></code></p>
+<p><strong>DOKUMENTENEINSTELLUNGEN</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">D</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">Dokumenteneinstellungen...</span></code>)</p>
+<p><strong>Reiter</strong>: <strong><code class="docutils literal notranslate"><span class="pre">Seite</span></code></strong></p>
+<div class="figure align-default" id="untitled-69">
+<a class="reference internal image-reference" href="../_images/Untitled_69.png"><img alt="../_images/Untitled_69.png" src="../_images/Untitled_69.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">caption</span><a class="headerlink" href="#untitled-69" title="Permalink to this image">¶</a></p>
+</div>
+<p>Hier können Sie noch wenn gewünscht einen Rand eingeben und dann durch den Button <code class="docutils literal notranslate"><span class="pre">Seitengröße</span> <span class="pre">auf</span> <span class="pre">Zeichnungs-/Auswahlgröße</span> <span class="pre">anpassen</span></code> die Seitengröße neu einstellen. So würde dies dann z.B. mit dem Rändern von 5mm aussehen:</p>
+<div class="figure align-default" id="groesse-an-inhalt-anpassen">
+<a class="reference internal image-reference" href="../_images/Groesse_an_Inhalt_Anpassen.gif"><img alt="../_images/Groesse_an_Inhalt_Anpassen.gif" src="../_images/Groesse_an_Inhalt_Anpassen.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">caption</span><a class="headerlink" href="#groesse-an-inhalt-anpassen" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="hintergrundfarbe-fur-export-einstellen">
+<h2>Hintergrundfarbe (für Export) einstellen<a class="headerlink" href="#hintergrundfarbe-fur-export-einstellen" title="Permalink to this headline">¶</a></h2>
+<p>Um den Einfluss der Hintergrundfarbe und des Randes beim Export zu verdeutlichen, habe ich die Grafik in drei verschiedenen Varianten exportiert und auf einem Hintergrund mit Farbverlauf eingefügt.</p>
+<div class="figure align-default" id="untitled-70">
+<a class="reference internal image-reference" href="../_images/Untitled_70.png"><img alt="../_images/Untitled_70.png" src="../_images/Untitled_70.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">caption</span><a class="headerlink" href="#untitled-70" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>png</strong> transparent</p>
+<p><strong>MIT TRANSPARENTEM HINTERGRUND</strong></p>
+<ul class="simple">
+<li><p>✅ kann z.B. in Powerpoint Präsentationen (bei Folien die nicht weiß sind) besser aussehen</p></li>
+<li><p>❌ Unser Trick bei der Sonne funktioniert so nicht mehr (kann aber auch anders gelöst werden)</p></li>
+</ul>
+<div class="figure align-default" id="untitled-71">
+<a class="reference internal image-reference" href="../_images/Untitled_71.png"><img alt="../_images/Untitled_71.png" src="../_images/Untitled_71.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">caption</span><a class="headerlink" href="#untitled-71" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>png</strong> weißer Hintergrund <strong>ohne</strong> Rand</p>
+<p><strong>MIT WEISSEN HINTERGRUND OHNE RAND</strong></p>
+<ul class="simple">
+<li><p>Genau das Gegenteil zum vorherigen Beispiel. Es sieht bei nicht-weißem Hintergrund oft nicht schön aus, dafür fällt der Trick bei der Sonne nicht mehr auf</p></li>
+<li><p>Zusätzlich fällt es auf, dass kein Rand verwendet wurde, wodurch der Text im Außenbereich nicht so schön lesbar ist</p></li>
+</ul>
+<div class="figure align-default" id="untitled-72">
+<a class="reference internal image-reference" href="../_images/Untitled_72.png"><img alt="../_images/Untitled_72.png" src="../_images/Untitled_72.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">caption</span><a class="headerlink" href="#untitled-72" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>png</strong> weißer Hintergrund <strong>mit</strong> Rand</p>
+<p><strong>MIT WEISSEN HINTERGRUND MIT RAND</strong></p>
+<ul class="simple">
+<li><p>durch den zusätzlichen Rand wirkt das Bild harmonischer und der Text ist nun auch besser lesbar</p></li>
+</ul>
+<p><strong>Grundsätzlich gibt es zwei Varianten einen Hintergrund für den Export einzustellen:</strong></p>
+<ol class="simple">
+<li><p><strong>Einen Hintergrund als Objekt erstellen</strong></p>
+<ul class="simple">
+<li><p>Ebene “Hintergrund” erstellen und diese ganz unten einfügen.</p></li>
+<li><p>Rechteck ziehen mit dem <code class="docutils literal notranslate"><span class="pre">Rechteck</span> <span class="pre">Tool</span></code> und Farbe vergeben</p></li>
+<li><p>ggf. kann snapping für die Seitenränder aktiviert werden damit genau die Größe des Seitenrandes verwendet werden kann</p></li>
+</ul>
+</li>
+</ol>
+<div class="figure align-default" id="untitled-73">
+<a class="reference internal image-reference" href="../_images/Untitled_73.png"><img alt="../_images/Untitled_73.png" src="../_images/Untitled_73.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">caption</span><a class="headerlink" href="#untitled-73" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="simple">
+<li><p><strong>Hintergrundfarbe</strong> in <code class="docutils literal notranslate"><span class="pre">Seiteneinstellungen</span></code> (<code class="docutils literal notranslate"><span class="pre">Shift</span></code> + <code class="docutils literal notranslate"><span class="pre">Str</span></code> + <code class="docutils literal notranslate"><span class="pre">D</span></code>)</p></li>
+</ol>
+<div class="figure align-default" id="untitled-74">
+<a class="reference internal image-reference" href="../_images/Untitled_74.png"><img alt="../_images/Untitled_74.png" src="../_images/Untitled_74.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">caption</span><a class="headerlink" href="#untitled-74" title="Permalink to this image">¶</a></p>
+</div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>- Wenn Sie das `Icon für den Hintergrund` (siehe Bild oben) anklicken können sie mit dem Schieber A den **Alpha-Wert** (also die Transparenz ändern)
+    - A=100 (ohne Transparenz)
+    - A=0 (voll Transparenz)
+- Standardwert ist `#ffffff00`
+</pre></div>
+</div>
+</div>
+<div class="section" id="pixelgrafik-export-als-png">
+<h2>[<code class="docutils literal notranslate"><span class="pre">PixelGrafik</span></code>] Export als <code class="docutils literal notranslate"><span class="pre">png</span></code><a class="headerlink" href="#pixelgrafik-export-als-png" title="Permalink to this headline">¶</a></h2>
+<p><strong>PNG-BILD EXPORTIEREN</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code> + <code class="docutils literal notranslate"><span class="pre">E</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">PNG-Bild</span> <span class="pre">exportieren...</span></code>)</p>
+<div class="figure align-default" id="untitled-75">
+<a class="reference internal image-reference" href="../_images/Untitled_75.png"><img alt="../_images/Untitled_75.png" src="../_images/Untitled_75.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">caption</span><a class="headerlink" href="#untitled-75" title="Permalink to this image">¶</a></p>
+</div>
+<p><strong>Hierbei wichtige Einstellungen:</strong></p>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Exportbereich</span></code></strong>: <code class="docutils literal notranslate"><span class="pre">Seite</span></code> / <code class="docutils literal notranslate"><span class="pre">Zeichnung</span></code> / <code class="docutils literal notranslate"><span class="pre">Auswahl</span></code> wird exportiert</p>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Bildgröße</span></code></strong>: Vorgabe von dpi (Seitengröße wird angepasst) oder Vorgabe von Breite bzw. Höhe (dpi wird angepasst)</p>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Dateiname</span></code></strong>: Pfad mit Dateinamen angeben</p>
+<p><strong><code class="docutils literal notranslate"><span class="pre">Exportieren</span></code>: Zum Speichern <code class="docutils literal notranslate"><span class="pre">Exportieren</span></code> drücken!</strong></p>
+</div>
+<div class="section" id="vektorgrafik-speichern-als-svg">
+<h2>[<code class="docutils literal notranslate"><span class="pre">VektorGrafik</span></code>] Speichern als <code class="docutils literal notranslate"><span class="pre">svg</span></code><a class="headerlink" href="#vektorgrafik-speichern-als-svg" title="Permalink to this headline">¶</a></h2>
+<p><strong>DATEI SPEICHERN UNTER + Dateityp: Inkscape-SVG (*.svg)</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code>+ <code class="docutils literal notranslate"><span class="pre">S</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">Speichern</span> <span class="pre">Unter...</span></code>)</p>
+<p>Sie sollten die Datei immer als <strong>Inkscape-SVG (*.svg)</strong> speichern. Dies ist das native Inkscape Dateiformat in dem alle Eigenschaften (z.B. auch Ebenen) gespeichert werden können. Weiterhin können <code class="docutils literal notranslate"><span class="pre">.svg</span></code> manchmal auch Programmen direkt verwendet werden (z.B. in <span class="math notranslate nohighlight">\(\LaTeX\)</span>).</p>
+</div>
+<div class="section" id="vektorgrafik-speichern-als-pdf">
+<h2>[<code class="docutils literal notranslate"><span class="pre">VektorGrafik</span></code>] Speichern als <code class="docutils literal notranslate"><span class="pre">pdf</span></code><a class="headerlink" href="#vektorgrafik-speichern-als-pdf" title="Permalink to this headline">¶</a></h2>
+<p>Manchmal ist es auch sinnvoll die Datei als pdf zu speichern, dafür dann den Dateityp <strong>Portable Document Format (*.pdf)</strong> verwenden.</p>
+<p><strong>DATEI SPEICHERN UNTER + Dateityp: Portable Document Format (*.pdf)</strong>
+(<code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">STR</span></code>+ <code class="docutils literal notranslate"><span class="pre">S</span></code>) oder (<code class="docutils literal notranslate"><span class="pre">Menu</span> <span class="pre">bar</span></code> → <code class="docutils literal notranslate"><span class="pre">Datei</span></code> →  <code class="docutils literal notranslate"><span class="pre">Speichern</span> <span class="pre">Unter...</span></code>)</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Inkscape"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Felix Kaule<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
